@@ -38,6 +38,10 @@ body {
     padding-right: 2rem;
 }
 
+.nav-brand {
+    margin-right: 2rem; /* Add spacing between brand and links */
+}
+
 .nav-brand a {
     font-size: 1.5rem;
     font-weight: 700;

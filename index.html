@@ -9,9 +9,9 @@ title: Welcome
             <h1>Hi, I'm <span class="highlight">Joe Mozden</span></h1>
             <h2>Data Professional & Writer</h2>
             <p class="hero-description">
-                I work at the intersection of data, technology, and business strategy. 
-                I write about tech, economics, and fitness, and I'm passionate about 
-                turning complex data into actionable insights.
+                I am currently a student at CBS studying Data Analytics and AI.
+                I enjoy reading and writing about tech and economics, but also have a passion for fitness and sports.
+                I use this space as a "digital learning portfolio" to share my thoughts, projects, and interests. 
             </p>
             <div class="hero-actions">
                 <a href="{{ '/blog' | relative_url }}" class="btn btn-primary">Read My Writing</a>
@@ -20,7 +20,7 @@ title: Welcome
         </div>
         <div class="hero-image">
             <div class="profile-placeholder">
-                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Joe Mozden" class="profile-img">
+                <img src="{{ '/assets/images/profile-picture.jpg' | relative_url }}" alt="Joe Mozden" class="profile-img">
             </div>
         </div>
     </div>
@@ -30,29 +30,76 @@ title: Welcome
 <section class="featured-section">
     <div class="section-content">
         <div class="section-header">
-            <span class="section-label">// SELECTED PROJECTS</span>
-            <h2>Selected projects</h2>
-            <p class="section-note">For more, use the links on the left...</p>
+            <span class="section-label">// FEATURED</span>
+            <h2>Featured</h2>
+            <p class="section-note">Highlights from my work and writing</p>
         </div>
         
-        <!-- Filter Tags (Optional - you can remove if you want it static) -->
+        <!-- Simple Filter Tabs -->
         <div class="featured-filters">
-            <button class="featured-filter-btn active" data-filter="all">Show All</button>
-            <button class="featured-filter-btn" data-filter="case-study">Cases</button>
-            <button class="featured-filter-btn" data-filter="project">AI Projects</button>
-            <button class="featured-filter-btn" data-filter="algorithm">Algorithms</button>
-            <button class="featured-filter-btn" data-filter="tool">Tools</button>
-            <button class="featured-filter-btn" data-filter="analysis">Analysis</button>
+            <button class="featured-filter-btn active" data-filter="featured">Featured</button>
+            <button class="featured-filter-btn" data-filter="all">Show All</button>
         </div>
         
-        <div class="featured-cards-grid">
+        <!-- Featured Content -->
+        <div class="featured-cards-grid" id="featured-content">
             {% for item in site.data.featured %}
-                <div class="featured-project-card" data-type="{{ item.type }}">
+                <div class="featured-project-card" data-type="featured">
                     <div class="card-badge badge-{{ item.color }}">{{ item.badge }}</div>
                     <h3 class="card-title">
                         <a href="{{ item.link }}">{{ item.title }}</a>
                     </h3>
                     <p class="card-description">{{ item.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+
+        <!-- All Content (Hidden by default) -->
+        <div class="all-content-grid" id="all-content" style="display: none;">
+            <!-- All Blog Posts -->
+            {% for post in site.posts %}
+                <div class="content-card" data-type="all">
+                    <div class="card-badge badge-blue">Blog Post</div>
+                    <h3 class="card-title">
+                        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    </h3>
+                    <p class="card-description">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                    <div class="card-meta">
+                        <span class="meta-date">{{ post.date | date: "%B %d, %Y" }}</span>
+                        {% if post.categories %}
+                            <div class="meta-categories">
+                                {% for category in post.categories limit:2 %}
+                                    <span class="meta-category">{{ category }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+
+            <!-- All Projects -->
+            {% for project in site.data.projects %}
+                <div class="content-card" data-type="all">
+                    <div class="card-badge badge-{{ project.type }}">{{ project.type | capitalize }}</div>
+                    <h3 class="card-title">
+                        {% if project.github %}
+                            <a href="{{ project.github }}" target="_blank">{{ project.name }}</a>
+                        {% elsif project.link %}
+                            <a href="{{ project.link }}" target="_blank">{{ project.name }}</a>
+                        {% elsif project.demo %}
+                            <a href="{{ project.demo }}" target="_blank">{{ project.name }}</a>
+                        {% else %}
+                            {{ project.name }}
+                        {% endif %}
+                    </h3>
+                    <p class="card-description">{{ project.description }}</p>
+                    {% if project.tech %}
+                        <div class="card-tech">
+                            {% for tech in project.tech limit:3 %}
+                                <span class="tech-tag">{{ tech }}</span>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
@@ -163,7 +210,14 @@ title: Welcome
     gap: 1.5rem;
 }
 
-.featured-project-card {
+.all-content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.featured-project-card,
+.content-card {
     background: white;
     border-radius: 0.75rem;
     padding: 2rem;
@@ -173,13 +227,53 @@ title: Welcome
     transition: all 0.3s ease;
 }
 
-.featured-project-card:hover {
+.featured-project-card:hover,
+.content-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-.featured-project-card.hidden {
-    display: none;
+.badge-code { background: #dbeafe; color: #1e40af; }
+.badge-video { background: #fecaca; color: #dc2626; }
+.badge-article { background: #dcfce7; color: #166534; }
+.badge-presentation { background: #fed7aa; color: #ea580c; }
+.badge-tool { background: #e0e7ff; color: #5b21b6; }
+
+.card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #6b7280;
+}
+
+.meta-categories {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.meta-category {
+    background: #f3f4f6;
+    color: #6b7280;
+    padding: 0.125rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+}
+
+.card-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.tech-tag {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
 }
 
 .card-badge {
@@ -326,10 +420,11 @@ title: Welcome
 </style>
 
 <script>
-// Featured projects filtering
+// Simple Featured vs Show All toggle
 document.addEventListener('DOMContentLoaded', function() {
     const filterButtons = document.querySelectorAll('.featured-filter-btn');
-    const projectCards = document.querySelectorAll('.featured-project-card');
+    const featuredContent = document.getElementById('featured-content');
+    const allContent = document.getElementById('all-content');
     
     filterButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -339,16 +434,14 @@ document.addEventListener('DOMContentLoaded', function() {
             filterButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
             
-            // Filter projects
-            projectCards.forEach(card => {
-                const cardType = card.getAttribute('data-type');
-                
-                if (filter === 'all' || cardType === filter) {
-                    card.classList.remove('hidden');
-                } else {
-                    card.classList.add('hidden');
-                }
-            });
+            // Show/hide content sections
+            if (filter === 'featured') {
+                featuredContent.style.display = 'grid';
+                allContent.style.display = 'none';
+            } else if (filter === 'all') {
+                featuredContent.style.display = 'none';
+                allContent.style.display = 'grid';
+            }
         });
     });
 });
