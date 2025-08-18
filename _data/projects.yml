@@ -1,0 +1,51 @@
+# Projects showcase - can include GitHub repos, videos, articles, or any other work
+# Different project types: "code", "video", "article", "presentation", "tool"
+
+- name: "Data Analysis Dashboard"
+  type: "code"
+  github: "https://github.com/yourusername/data-dashboard"
+  description: "Interactive dashboard for business metrics analysis using Python and Streamlit"
+  excerpt: "Built a real-time analytics dashboard that helped stakeholders make data-driven decisions. Reduced reporting time from hours to minutes."
+  tech: ["Python", "Streamlit", "Pandas", "Plotly"]
+  featured: true
+
+- name: "Economic Trends Explained"
+  type: "video"
+  link: "https://youtube.com/watch?v=your-video-id"
+  description: "Video breakdown of current economic indicators and what they mean for consumers"
+  excerpt: "Created educational content explaining complex economic concepts in accessible language. Reached over 10K views in first month."
+  tech: ["Video Production", "Economics", "Data Visualization"]
+  featured: true
+
+- name: "Fitness Data Science Series"
+  type: "article"
+  link: "/blog/2025/07/15/fitness-data-science/"
+  description: "Blog post series analyzing workout data to optimize training routines"
+  excerpt: "Applied statistical analysis to personal fitness data, discovering insights that improved training efficiency by 40%."
+  tech: ["R", "Statistics", "Health Analytics"]
+  featured: true
+
+- name: "Economic Indicators API"
+  type: "code"
+  github: "https://github.com/yourusername/econ-api"
+  description: "REST API for fetching and analyzing economic indicators with historical data"
+  excerpt: "Designed and built a robust API serving economic data to researchers and analysts. Handles 1000+ requests daily."
+  tech: ["Python", "Flask", "SQLAlchemy", "API"]
+  featured: false
+
+- name: "Business Intelligence Presentation"
+  type: "presentation"
+  link: "https://docs.google.com/presentation/d/your-presentation-id"
+  description: "Conference talk on democratizing data insights for non-technical stakeholders"
+  excerpt: "Presented strategies for making data accessible across organizations. Led to 30% increase in data adoption at client companies."
+  tech: ["Data Storytelling", "Business Intelligence", "Communication"]
+  featured: false
+
+- name: "Market Research Tool"
+  type: "tool"
+  github: "https://github.com/yourusername/market-research"
+  demo: "https://your-tool-demo.herokuapp.com"
+  description: "Automated tool for gathering and analyzing competitive market data"
+  excerpt: "Automated competitive analysis that previously took analysts days. Now generates comprehensive reports in under an hour."
+  tech: ["Python", "BeautifulSoup", "Selenium", "Web App"]
+  featured: false

@@ -1,0 +1,44 @@
+# Featured content for homepage - can be projects, blog posts, videos, anything
+# This gives you full control over what appears on your homepage
+
+- title: "Connecting the Dots for NYC Clean Power: The Case of NineDot Energy"
+  type: "case-study"
+  description: "Strategic analysis of renewable energy infrastructure and market positioning in urban environments"
+  badge: "Case Study"
+  link: "/projects/ninedot-energy-case"
+  color: "blue"
+
+- title: "BinIt: Revolutionizing the Recycling Industry with Computer Vision, AI, and Deep Learning"
+  type: "project"
+  description: "AI-powered waste sorting system using computer vision to improve recycling efficiency"
+  badge: "AI Project"
+  link: "/projects/binit-recycling"
+  color: "green"
+
+- title: "OfferLink: Operationalizing the Deferred Acceptance Algorithm in an MBA Job Market"
+  type: "algorithm"
+  description: "Implementation of matching algorithms for optimizing job placement in competitive markets"
+  badge: "Live System"
+  link: "/projects/offerlink-algorithm"
+  color: "purple"
+
+- title: "An Interactive Job Market Simulator Game"
+  type: "tool"
+  description: "Educational simulation tool for understanding labor market dynamics and decision-making"
+  badge: "Live System"
+  link: "/projects/job-market-simulator"
+  color: "orange"
+
+- title: "Chasing Michelin: A Lottery for Sparse Restaurant Spots"
+  type: "analysis"
+  description: "Data-driven analysis of restaurant reservation systems and consumer behavior patterns"
+  badge: "Live System"
+  link: "/projects/michelin-lottery"
+  color: "red"
+
+- title: "BA2 & BA3: An Advanced AI Course Sequence for MBAs"
+  type: "education"
+  description: "Curriculum development for teaching AI and machine learning concepts to business students"
+  badge: "Course"
+  link: "/projects/mba-ai-curriculum"
+  color: "blue"

@@ -1,0 +1,450 @@
+---
+layout: default
+title: Welcome
+---
+
+<div class="hero-section">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hi, I'm <span class="highlight">Joe Mozden</span></h1>
+            <h2>Data Professional & Writer</h2>
+            <p class="hero-description">
+                I work at the intersection of data, technology, and business strategy. 
+                I write about tech, economics, and fitness, and I'm passionate about 
+                turning complex data into actionable insights.
+            </p>
+            <div class="hero-actions">
+                <a href="{{ '/blog' | relative_url }}" class="btn btn-primary">Read My Writing</a>
+                <a href="{{ '/projects' | relative_url }}" class="btn btn-secondary">See My Work</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="profile-placeholder">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Joe Mozden" class="profile-img">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Featured Projects Section -->
+<section class="featured-section">
+    <div class="section-content">
+        <div class="section-header">
+            <span class="section-label">// SELECTED PROJECTS</span>
+            <h2>Selected projects</h2>
+            <p class="section-note">For more, use the links on the left...</p>
+        </div>
+        
+        <!-- Filter Tags (Optional - you can remove if you want it static) -->
+        <div class="featured-filters">
+            <button class="featured-filter-btn active" data-filter="all">Show All</button>
+            <button class="featured-filter-btn" data-filter="case-study">Cases</button>
+            <button class="featured-filter-btn" data-filter="project">AI Projects</button>
+            <button class="featured-filter-btn" data-filter="algorithm">Algorithms</button>
+            <button class="featured-filter-btn" data-filter="tool">Tools</button>
+            <button class="featured-filter-btn" data-filter="analysis">Analysis</button>
+        </div>
+        
+        <div class="featured-cards-grid">
+            {% for item in site.data.featured %}
+                <div class="featured-project-card" data-type="{{ item.type }}">
+                    <div class="card-badge badge-{{ item.color }}">{{ item.badge }}</div>
+                    <h3 class="card-title">
+                        <a href="{{ item.link }}">{{ item.title }}</a>
+                    </h3>
+                    <p class="card-description">{{ item.description }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Recent Posts Section -->
+<section class="recent-posts-section">
+    <div class="section-content">
+        <h2>Recent Writing</h2>
+        <p class="section-subtitle">Latest thoughts on tech, economics, and fitness</p>
+        
+        <div class="posts-grid">
+            {% for post in site.posts limit:3 %}
+                <article class="post-card">
+                    <div class="post-header">
+                        {% if post.categories %}
+                            <div class="post-categories">
+                                {% for category in post.categories limit:2 %}
+                                    <span class="category-tag category-{{ category }}">{{ category }}</span>
+                                {% endfor %}
+                            </div>
+                        {% endif %}
+                        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                    </div>
+                    <div class="post-meta">
+                        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+                        <span class="read-time">{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+                    </div>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+                    <a href="{{ post.url | relative_url }}" class="read-more">Read More →</a>
+                </article>
+            {% endfor %}
+        </div>
+        
+        <div class="view-more">
+            <a href="{{ '/blog' | relative_url }}" class="view-more-link">View All Posts →</a>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Welcome Page Specific Styles */
+.featured-section {
+    padding: 4rem 0;
+    background: #f8fafc;
+}
+
+.recent-posts-section {
+    padding: 4rem 0;
+}
+
+.section-header {
+    margin-bottom: 2rem;
+}
+
+.section-label {
+    color: #6b7280;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.section-content h2 {
+    font-size: 2.5rem;
+    color: #111827;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+
+.section-note {
+    color: #6b7280;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.featured-filters {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.featured-filter-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #e5e7eb;
+    background: white;
+    color: #6b7280;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.featured-filter-btn.active,
+.featured-filter-btn:hover {
+    border-color: #111827;
+    color: #111827;
+    background: #111827;
+    color: white;
+}
+
+.featured-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+.featured-project-card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.featured-project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.featured-project-card.hidden {
+    display: none;
+}
+
+.card-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.badge-blue { background: #dbeafe; color: #1e40af; }
+.badge-green { background: #dcfce7; color: #166534; }
+.badge-purple { background: #e0e7ff; color: #5b21b6; }
+.badge-orange { background: #fed7aa; color: #ea580c; }
+.badge-red { background: #fecaca; color: #dc2626; }
+
+.card-title {
+    font-size: 1.25rem;
+    color: #111827;
+    margin: 0 0 1rem 0;
+    line-height: 1.4;
+    font-weight: 600;
+}
+
+.card-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.card-title a:hover {
+    color: #2563eb;
+}
+
+.card-description {
+    color: #4b5563;
+    line-height: 1.6;
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Blog Post Cards */
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post-card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.post-categories {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.category-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.category-tech { background: #dbeafe; color: #1e40af; }
+.category-economics { background: #dcfce7; color: #166534; }
+.category-fitness { background: #fecaca; color: #dc2626; }
+.category-general { background: #f3f4f6; color: #374151; }
+
+.post-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.post-header h3 a {
+    color: #111827;
+    text-decoration: none;
+}
+
+.post-header h3 a:hover {
+    color: #2563eb;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin: 0.75rem 0 1rem 0;
+}
+
+.post-excerpt {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.view-more {
+    text-align: center;
+}
+
+.view-more-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.view-more-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .featured-cards-grid,
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+// Featured projects filtering
+document.addEventListener('DOMContentLoaded', function() {
+    const filterButtons = document.querySelectorAll('.featured-filter-btn');
+    const projectCards = document.querySelectorAll('.featured-project-card');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const filter = this.getAttribute('data-filter');
+            
+            // Update active button
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            this.classList.add('active');
+            
+            // Filter projects
+            projectCards.forEach(card => {
+                const cardType = card.getAttribute('data-type');
+                
+                if (filter === 'all' || cardType === filter) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        });
+    });
+});
+</script>
+
+/* Blog Post Cards */
+.post-card {
+    background: white;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.post-categories {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.category-tag {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.category-tech { background: #dbeafe; color: #1e40af; }
+.category-economics { background: #dcfce7; color: #166534; }
+.category-fitness { background: #fecaca; color: #dc2626; }
+.category-general { background: #f3f4f6; color: #374151; }
+
+.post-header h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.post-header h3 a {
+    color: #111827;
+    text-decoration: none;
+}
+
+.post-header h3 a:hover {
+    color: #2563eb;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    color: #6b7280;
+    font-size: 0.9rem;
+    margin: 0.75rem 0 1rem 0;
+}
+
+.post-excerpt {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.view-more {
+    text-align: center;
+}
+
+.view-more-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.view-more-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .featured-grid,
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

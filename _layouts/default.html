@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <!-- Feed -->
+    {% feed_meta %}
+</head>
+<body>
+    <div class="site-container">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="nav-brand">
+                <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </div>
+            <div class="nav-links">
+                <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Welcome</a>
+                <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
+                <a href="{{ '/blog' | relative_url }}" class="nav-link {% if page.url contains '/blog' or page.layout == 'post' %}active{% endif %}">Blog</a>
+                <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+                <a href="{{ '/other' | relative_url }}" class="nav-link {% if page.url == '/other/' %}active{% endif %}">Other</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            {{ content }}
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. Built with Jekyll.</p>
+                <div class="social-links">
+                    {% if site.github_username %}
+                        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LinkedIn</a>
+                    {% endif %}
+                    {% if site.twitter_username %}
+                        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" rel="noopener">Twitter</a>
+                    {% endif %}
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>
