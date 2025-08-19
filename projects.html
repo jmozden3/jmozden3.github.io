@@ -19,10 +19,8 @@ title: Projects
                 {% assign featured_projects = site.data.projects | where: "featured", true %}
                 {% for project in featured_projects %}
                     <div class="project-card featured">
-                        <div class="project-header">
-                            <div class="project-type">
-                                <span class="type-badge type-{{ project.type }}">{{ project.type | capitalize }}</span>
-                            </div>
+                        <div class="project-header" style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 1rem;">
+                            <span class="type-badge type-{{ project.type }}" style="margin-bottom: 0.5rem;">{{ project.type | capitalize }}</span>
                             <h3>{{ project.name }}</h3>
                         </div>
                         
@@ -57,6 +55,14 @@ title: Projects
                                         <polygon points="5,3 19,12 5,21"/>
                                     </svg>
                                     Demo
+                                </a>
+                            {% endif %}
+                            {% if project.play %}
+                                <a href="{{ project.play }}" target="_blank" rel="noopener" class="project-link play">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <polygon points="5,3 19,12 5,21"/>
+                                    </svg>
+                                    Play
                                 </a>
                             {% endif %}
                         </div>
@@ -254,6 +260,11 @@ title: Projects
 .project-link.demo {
     background: #dcfce7;
     color: #166534;
+}
+
+.project-link.play {
+    background: #fef3c7;
+    color: #92400e;
 }
 
 .project-link:hover {
