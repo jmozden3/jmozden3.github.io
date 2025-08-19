@@ -16,14 +16,14 @@
   featured: true
 
 - name: "Azure AI Agents Lab"
-  type: "ai"
+  type: "ai-project"
   github: "https://github.com/elsafecke/azure-ai-agents-labs"
   description: "Repo I contributed to that contains labs and examples for building AI Agents using Azure AI Agent Service SDK and Semantic Kernel"
   tech: ["Jupyter Notebook", "AI", "Client Workshop", "Azure"]
   featured: false
 
 - name: "AI Powered Search Engine"
-  type: "ai"
+  type: "ai-project"
   github: "https://github.com/DanGiannone1/ai-powered-search-engine"
   description: "Repo I contributed to that is a legal document search engine powered by Azure AI Search, Azure OpenAI, and advanced RAG (Retrieval-Augmented Generation) capabilities."
   tech: ["AI", "Client Facing", "Azure", "Python"]
