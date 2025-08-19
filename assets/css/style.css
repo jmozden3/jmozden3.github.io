@@ -169,6 +169,14 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
+.about-profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain; /* Show entire image, less cropping */
+    background: #f8fafc;
+}
+
 /* About Section */
 .about-section {
     padding: 4rem 0;
