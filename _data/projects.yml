@@ -1,51 +1,53 @@
 # Projects showcase - can include GitHub repos, videos, articles, or any other work
-# Different project types: "code", "video", "article", "presentation", "tool"
+# Different project types: "template", "video", "ai", "game", "tool"
 
-- name: "Data Analysis Dashboard"
-  type: "code"
-  github: "https://github.com/yourusername/data-dashboard"
-  description: "Interactive dashboard for business metrics analysis using Python and Streamlit"
-  excerpt: "Built a real-time analytics dashboard that helped stakeholders make data-driven decisions. Reduced reporting time from hours to minutes."
-  tech: ["Python", "Streamlit", "Pandas", "Plotly"]
-  featured: true
-
-- name: "Economic Trends Explained"
-  type: "video"
-  link: "https://youtube.com/watch?v=your-video-id"
-  description: "Video breakdown of current economic indicators and what they mean for consumers"
-  excerpt: "Created educational content explaining complex economic concepts in accessible language. Reached over 10K views in first month."
-  tech: ["Video Production", "Economics", "Data Visualization"]
-  featured: true
-
-- name: "Fitness Data Science Series"
-  type: "article"
-  link: "/blog/2025/07/15/fitness-data-science/"
-  description: "Blog post series analyzing workout data to optimize training routines"
-  excerpt: "Applied statistical analysis to personal fitness data, discovering insights that improved training efficiency by 40%."
-  tech: ["R", "Statistics", "Health Analytics"]
-  featured: true
-
-- name: "Economic Indicators API"
-  type: "code"
-  github: "https://github.com/yourusername/econ-api"
-  description: "REST API for fetching and analyzing economic indicators with historical data"
-  excerpt: "Designed and built a robust API serving economic data to researchers and analysts. Handles 1000+ requests daily."
-  tech: ["Python", "Flask", "SQLAlchemy", "API"]
+- name: "Azure Databricks Disaster Recovery"
+  type: "template"
+  github: "https://github.com/jmozden3/azure-databricks-disaster-recovery"
+  description: "A collection of templates and guidance for implementing disaster recovery solutions for Azure Databricks environments. Based on Microsoft's official documentation and industry best practices."
+  tech: ["Client Facing", "Terraform", "Databricks", "Azure", "Python"]
   featured: false
 
-- name: "Business Intelligence Presentation"
-  type: "presentation"
-  link: "https://docs.google.com/presentation/d/your-presentation-id"
-  description: "Conference talk on democratizing data insights for non-technical stakeholders"
-  excerpt: "Presented strategies for making data accessible across organizations. Led to 30% increase in data adoption at client companies."
-  tech: ["Data Storytelling", "Business Intelligence", "Communication"]
-  featured: false
-
-- name: "Market Research Tool"
+- name: "Spotify Playlist Extractor"
   type: "tool"
-  github: "https://github.com/yourusername/market-research"
-  demo: "https://your-tool-demo.herokuapp.com"
-  description: "Automated tool for gathering and analyzing competitive market data"
-  excerpt: "Automated competitive analysis that previously took analysts days. Now generates comprehensive reports in under an hour."
-  tech: ["Python", "BeautifulSoup", "Selenium", "Web App"]
+  github: "https://github.com/jmozden3/spotify-playlist-extractor"
+  description: "A simple Python tool to extract all tracks from any Spotify playlist and export them to CSV or TXT files"
+  tech: ["Python", "Tool"]
+  featured: true
+
+- name: "Azure AI Agents Lab"
+  type: "ai"
+  github: "https://github.com/elsafecke/azure-ai-agents-labs"
+  description: "Repo I contributed to that contains labs and examples for building AI Agents using Azure AI Agent Service SDK and Semantic Kernel"
+  tech: ["Jupyter Notebook", "AI", "Client Workshop", "Azure"]
+  featured: false
+
+- name: "AI Powered Search Engine"
+  type: "ai"
+  github: "https://github.com/DanGiannone1/ai-powered-search-engine"
+  description: "Repo I contributed to that is a legal document search engine powered by Azure AI Search, Azure OpenAI, and advanced RAG (Retrieval-Augmented Generation) capabilities."
+  tech: ["AI", "Client Facing", "Azure", "Python"]
+  featured: true
+
+- name: "Top Five"
+  type: "game"
+  play: "https://topfive-h7dtbccrgmd8gye8.eastus2-01.azurewebsites.net/"
+  github: https://github.com/jmozden3/Top-Five
+  description: "An online ranking game for friends and family. Play by clicking on the link!"
+  tech: ["Live", "Just for fun", "Azure Web Apps"]
+  featured: true
+
+- name: "Weather or Not"
+  type: "game"
+  github: "https://github.com/jmozden3/weather-or-not"
+  play: "https://weather-or-not-c0crfdghawf7ebah.eastus2-01.azurewebsites.net/"
+  description: "Guessing the weather on a random day in history. Honestly built it because my friend suggested the idea and I thought the name was funny"
+  tech: ["Live", "Just for fun", "Azure Web Apps"]
+  featured: false
+
+- name: "Alumni Database"
+  type: "template"
+  github: "https://github.com/jmozden3/alumni-db-public"
+  description: "A code template for creating a basic alumni database for clubs or organizations"
+  tech: ["Python", "Plotly"]
   featured: false
