@@ -173,7 +173,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    object-fit: contain; /* Show entire image, less cropping */
+    object-fit: cover; 
     background: #f8fafc;
 }
 
