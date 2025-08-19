@@ -20,7 +20,7 @@ title: Welcome
         </div>
         <div class="hero-image">
             <div class="profile-placeholder">
-                <img src="{{ '/assets/images/profile-picture-cropped.jpeg' | relative_url }}" alt="Joe Mozden" class="profile-img">
+                <img src="{{ '/assets/images/profile-picture-cropped.jpeg' | relative_url }}" alt="Photo of Joe Mozden" class="profile-img">
             </div>
         </div>
     </div>
@@ -447,97 +447,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-/* Blog Post Cards */
-.post-card {
-    background: white;
-    border-radius: 0.75rem;
-    padding: 2rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e5e7eb;
-    transition: all 0.3s ease;
-}
-
-.post-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-}
-
-.post-categories {
-    display: flex;
-    gap: 0.5rem;
-    margin-bottom: 0.75rem;
-}
-
-.category-tag {
-    padding: 0.25rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.category-tech { background: #dbeafe; color: #1e40af; }
-.category-economics { background: #dcfce7; color: #166534; }
-.category-fitness { background: #fecaca; color: #dc2626; }
-.category-general { background: #f3f4f6; color: #374151; }
-
-.post-header h3 {
-    margin: 0;
-    font-size: 1.25rem;
-}
-
-.post-header h3 a {
-    color: #111827;
-    text-decoration: none;
-}
-
-.post-header h3 a:hover {
-    color: #2563eb;
-}
-
-.post-meta {
-    display: flex;
-    gap: 1rem;
-    color: #6b7280;
-    font-size: 0.9rem;
-    margin: 0.75rem 0 1rem 0;
-}
-
-.post-excerpt {
-    color: #4b5563;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-.read-more {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
-
-.view-more {
-    text-align: center;
-}
-
-.view-more-link {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.view-more-link:hover {
-    text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-    .featured-grid,
-    .posts-grid {
-        grid-template-columns: 1fr;
-    }
-}
-</style>
