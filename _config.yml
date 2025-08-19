@@ -7,8 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jmozden3/github.io" # the base hostname & protocol for your site
 
 # Social links
-github_username: https://github.com/jmozden3
-linkedin_username: https://www.linkedin.com/in/joe-mozden/
+github_username: jmozden3
+linkedin_username: joe-mozden
 
 # Build settings
 markdown: kramdown
