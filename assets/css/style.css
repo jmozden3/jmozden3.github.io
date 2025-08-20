@@ -361,6 +361,11 @@ body {
     color: #92400e; 
 }
 
+.badge-blog-post { 
+    background: #e0e7ff; 
+    color: #5b21b6; 
+}
+
 .badge-blue { 
     background: #dbeafe; 
     color: #1e40af; 
