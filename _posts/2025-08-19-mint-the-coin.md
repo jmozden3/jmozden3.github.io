@@ -2,7 +2,7 @@
 layout: post
 title: "Mint the Coin [Repost and Update]"
 date: 2023-02-23 12:00:00 -0500
-category: economics
+categories: economics
 tags: [finance]
 excerpt: "An old post from 2023 about minting the coin with a small update at the end of the article"
 ---
