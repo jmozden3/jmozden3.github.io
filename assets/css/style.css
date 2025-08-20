@@ -335,13 +335,77 @@ body {
     text-decoration: underline;
 }
 
-/* Badge Styles */
-.badge-ai { background: #3b82f6; color: #fff; }
-.badge-tool { background: #f59e42; color: #fff; }
-.badge-game { background: #22c55e; color: #fff; }
-.badge-template { background: #a855f7; color: #fff; }
-.badge-video { background: #dc2626; color: #fff; }
-.badge-blog-post { background: #10b981; color: #fff; }
+/* Consistent Badge Styles */
+.badge-ai { 
+    background: #fecaca; 
+    color: #dc2626; 
+}
+
+.badge-tool { 
+    background: #dcfce7; 
+    color: #166534; 
+}
+
+.badge-game { 
+    background: #fed7aa; 
+    color: #ea580c; 
+}
+
+.badge-template { 
+    background: #dbeafe; 
+    color: #1e40af; 
+}
+
+.badge-video { 
+    background: #fde68a; 
+    color: #92400e; 
+}
+
+.badge-blue { 
+    background: #dbeafe; 
+    color: #1e40af; 
+}
+
+.badge-green { 
+    background: #dcfce7; 
+    color: #166534; 
+}
+
+.badge-purple { 
+    background: #e0e7ff; 
+    color: #5b21b6; 
+}
+
+.badge-orange { 
+    background: #fed7aa; 
+    color: #ea580c; 
+}
+
+.badge-red { 
+    background: #fecaca; 
+    color: #dc2626; 
+}
+
+/* Blog post category badges */
+.category-tech { 
+    background: #dbeafe; 
+    color: #1e40af; 
+}
+
+.category-economics { 
+    background: #dcfce7; 
+    color: #166534; 
+}
+
+.category-fitness { 
+    background: #fecaca; 
+    color: #dc2626; 
+}
+
+.category-general { 
+    background: #f3f4f6; 
+    color: #374151; 
+}
 
 /* Footer */
 .site-footer {
