@@ -8,8 +8,20 @@
   link: "/projects/ninedot-energy-case"
   color: "blue"
 
-- name: "AI Powered Search Engine"
-  description: "Repo I contributed to that is a legal document search engine powered by Azure AI Search, Azure OpenAI, and advanced RAG (Retrieval-Augmented Generation) capabilities."
+- title: "AI Powered Search Engine"
+  description: "Repo I contributed to that is a legal document search engine powered by Azure AI Search, Azure OpenAI, and advanced RAG (Retrieval-Augmented Generation) capabilities"
   badge: "AI"
   link: "https://github.com/DanGiannone1/ai-powered-search-engine"
   color: "red"
+
+- title: "Spotify Playlist Extractor"
+  description: "A simple Python tool to extract all tracks from any Spotify playlist and export them to CSV or TXT files"
+  badge: "Tool"
+  link: "https://github.com/jmozden3/spotify-playlist-extractor"
+  color: "green"
+
+- title: "Mint the Coin [Repost and Update]"
+  description: "An old post from 2023 about minting the coin with a small update at the end of the article"
+  badge: "Blog Post"
+  link: "_posts/2025-08-19-mint-the-coin.md"
+  color: "blue"
