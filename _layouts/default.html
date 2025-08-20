@@ -34,6 +34,7 @@
         <!-- Main Content -->
         <main class="main-content">
             {{ content }}
+            <span class="type-badge badge-{{ page.categories[0] | downcase | replace: ' ', '-' }}">{{ page.categories[0] | capitalize }}</span>
         </main>
 
         <!-- Footer -->

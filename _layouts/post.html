@@ -9,7 +9,7 @@ layout: default
                 {% if page.categories %}
                     <div class="post-categories">
                         {% for category in page.categories %}
-                            <span class="category-tag category-{{ category }}">{{ category }}</span>
+                            <span class="type-badge badge-{{ category | downcase | replace: ' ', '-' }}">{{ category | capitalize }}</span>
                         {% endfor %}
                     </div>
                 {% endif %}
@@ -94,7 +94,7 @@ layout: default
     gap: 0.5rem;
 }
 
-.category-tag {
+.type-badge {
     padding: 0.25rem 0.75rem;
     border-radius: 9999px;
     font-size: 0.75rem;
@@ -102,10 +102,10 @@ layout: default
     text-transform: uppercase;
 }
 
-.category-tech { background: #dbeafe; color: #1e40af; }
-.category-economics { background: #dcfce7; color: #166534; }
-.category-fitness { background: #fecaca; color: #dc2626; }
-.category-general { background: #f3f4f6; color: #374151; }
+.badge-tech { background: #dbeafe; color: #1e40af; }
+.badge-economics { background: #dcfce7; color: #166534; }
+.badge-fitness { background: #fecaca; color: #dc2626; }
+.badge-general { background: #f3f4f6; color: #374151; }
 
 .post-date {
     color: #6b7280;

@@ -45,7 +45,7 @@ title: Welcome
         <div class="featured-cards-grid" id="featured-content">
             {% for item in site.data.featured %}
                 <div class="featured-project-card" data-type="featured">
-                    <div class="card-badge badge-{{ item.color }}">{{ item.badge }}</div>
+                    <div class="card-badge badge-{{ item.badge | downcase | replace: ' ', '-' }}">{{ item.badge }}</div>
                     <h3 class="card-title">
                         <a href="{{ item.link }}">{{ item.title }}</a>
                     </h3>

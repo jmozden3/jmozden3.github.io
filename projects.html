@@ -20,7 +20,7 @@ title: Projects
                 {% for project in featured_projects %}
                     <div class="project-card featured">
                         <div class="project-header" style="display: flex; flex-direction: column; align-items: flex-start; margin-bottom: 1rem;">
-                            <span class="type-badge type-{{ project.type }}" style="margin-bottom: 0.5rem;">{{ project.type | capitalize }}</span>
+                            <span class="type-badge badge-{{ project.type | downcase | replace: ' ', '-' }}" style="margin-bottom: 0.5rem;">{{ project.type | capitalize }}</span>
                             <h3>{{ project.name }}</h3>
                         </div>
                         
@@ -90,7 +90,7 @@ title: Projects
                 {% for project in site.data.projects %}
                     <div class="project-item" data-type="{{ project.type }}">
                         <div class="project-item-header">
-                            <span class="type-badge type-{{ project.type }}">{{ project.type | capitalize }}</span>
+                            <span class="type-badge badge-{{ project.type | downcase | replace: ' ', '-' }}">{{ project.type | capitalize }}</span>
                             <h4>{{ project.name }}</h4>
                         </div>
                         
