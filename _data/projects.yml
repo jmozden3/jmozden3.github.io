@@ -8,6 +8,13 @@
   tech: ["Client Facing", "Terraform", "Databricks", "Azure", "Python"]
   featured: false
 
+- name: "My Website"
+  type: "template"
+  github: "https://github.com/jmozden3/jmozden3.github.io.git"
+  description: "This website, which has been manually created and coded (with the help of my pal Claude). If you like the design, feel free to check out the code and use it as a template for your own website."
+  tech: ["GitHub Pages"]
+  featured: false
+
 - name: "Spotify Playlist Extractor"
   type: "tool"
   github: "https://github.com/jmozden3/spotify-playlist-extractor"
