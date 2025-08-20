@@ -25,3 +25,10 @@
   badge: "Blog Post"
   link: "_posts/2025-08-19-mint-the-coin.md"
   color: "blue"
+
+- title: "Test"
+  type: "case-study"
+  description: "Strategic analysis of renewable energy infrastructure and market positioning in urban environments"
+  badge: "Case Study"
+  link: "/projects/ninedot-energy-case"
+  color: "blue"
