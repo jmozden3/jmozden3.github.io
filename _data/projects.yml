@@ -2,42 +2,42 @@
 # Different project types: "template", "video", "ai", "game", "tool"
 
 - name: "Azure Databricks Disaster Recovery"
-  type: "template"
+  badge: "template"
   github: "https://github.com/jmozden3/azure-databricks-disaster-recovery"
   description: "A collection of templates and guidance for implementing disaster recovery solutions for Azure Databricks environments. Based on Microsoft's official documentation and industry best practices."
   tech: ["Client Facing", "Terraform", "Databricks", "Azure", "Python"]
   featured: false
 
 - name: "My Website"
-  type: "template"
+  badge: "template"
   github: "https://github.com/jmozden3/jmozden3.github.io.git"
   description: "This website, which has been manually created and coded (with the help of my pal Claude). If you like the design, feel free to check out the code and use it as a template for your own website."
   tech: ["GitHub Pages"]
   featured: false
 
 - name: "Spotify Playlist Extractor"
-  type: "tool"
+  badge: "tool"
   github: "https://github.com/jmozden3/spotify-playlist-extractor"
   description: "A simple Python tool to extract all tracks from any Spotify playlist and export them to CSV or TXT files"
   tech: ["Python", "Tool"]
   featured: true
 
 - name: "Azure AI Agents Lab"
-  type: "ai"
+  badge: "ai"
   github: "https://github.com/elsafecke/azure-ai-agents-labs"
   description: "Repo I contributed to that contains labs and examples for building AI Agents using Azure AI Agent Service SDK and Semantic Kernel"
   tech: ["Jupyter Notebook", "AI", "Client Workshop", "Azure"]
   featured: false
 
 - name: "AI Powered Search Engine"
-  type: "ai"
+  badge: "ai"
   github: "https://github.com/DanGiannone1/ai-powered-search-engine"
   description: "Repo I contributed to that is a legal document search engine powered by Azure AI Search, Azure OpenAI, and advanced RAG (Retrieval-Augmented Generation) capabilities."
   tech: ["AI", "Client Facing", "Azure", "Python"]
   featured: true
 
 - name: "Top Five"
-  type: "game"
+  badge: "game"
   play: "https://topfive-h7dtbccrgmd8gye8.eastus2-01.azurewebsites.net/"
   github: https://github.com/jmozden3/Top-Five
   description: "An online ranking game for friends and family. Play by clicking on the link!"
@@ -45,7 +45,7 @@
   featured: true
 
 - name: "Weather or Not"
-  type: "game"
+  badge: "game"
   github: "https://github.com/jmozden3/weather-or-not"
   play: "https://weather-or-not-c0crfdghawf7ebah.eastus2-01.azurewebsites.net/"
   description: "Guessing the weather on a random day in history. Honestly built it because my friend suggested the idea and I thought the name was funny"
@@ -53,7 +53,7 @@
   featured: false
 
 - name: "Alumni Database"
-  type: "template"
+  badge: "template"
   github: "https://github.com/jmozden3/alumni-db-public"
   description: "A code template for creating a basic alumni database for clubs or organizations"
   tech: ["Python", "Plotly"]

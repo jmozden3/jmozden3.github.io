@@ -336,11 +336,12 @@ body {
 }
 
 /* Badge Styles */
-.badge-ai { background: #ef4444; color: #fff; }
-.badge-tool { background: #3b82f6; color: #fff; }
+.badge-ai { background: #3b82f6; color: #fff; }
+.badge-tool { background: #f59e42; color: #fff; }
 .badge-game { background: #22c55e; color: #fff; }
-.badge-blog-post { background: #f59e42; color: #fff; }
 .badge-template { background: #a855f7; color: #fff; }
+.badge-video { background: #dc2626; color: #fff; }
+.badge-blog-post { background: #10b981; color: #fff; }
 
 /* Footer */
 .site-footer {
