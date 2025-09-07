@@ -24,7 +24,7 @@ This is, by FAR, the easiest **division winner** to guess. The **Buffalo Bills**
 
 **Bold Prediction**: Is it even a bold prediction to predict Tyreek Hill is not on this team next year? What about halfway through the year? He hates being there. It was clear from end of last year and it'll be clear halfway through this year. Too bad the market for his has dramatically shrunk. 
 
-![Tom Brady Image](assets\images\brady-lets-go.jpg)
+![Tom Brady Image](/assets/images/brady-lets-go.jpg)
 > *miss you babe*
 
 ## AFC North
@@ -143,6 +143,6 @@ Many, but specifically...
 
 Between the Bills and Packers, Bills are just the better team. Their defense will finally show up in the playoffs and it's their time to shine. Let the confetti rain down for a fanbase starving for a championship. Circle the wagons, baby. 
 
-![Gemini generated image of the Bills winning the Superbowl](assets\images\bills-superbowl-win.png)
+![Gemini generated image of the Bills winning the Superbowl](/assets/images/bills-superbowl-win.png)
 > *Gemini: *Unfortunately, I'm unable to create images that depict real people [Josh Allen and the Bills] in a way that could be seen as misrepresenting actual events [me asking Gemini to make an image of the bills winning the SB] or endorsing outcomes of real-world competitions. I can generate an image of a generic football team in blue and red, celebrating a championship win with a trophy, and a player who resembles a quarterback celebrating. How does that sound?*
 
