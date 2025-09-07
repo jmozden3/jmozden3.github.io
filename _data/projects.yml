@@ -11,7 +11,7 @@
 - name: "My Website"
   type: "template"
   github: "https://github.com/jmozden3/jmozden3.github.io.git"
-  description: "This website, which has been manually created and coded (with the help of my pal Claude). If you like the design, feel free to check out the code and use it as a template for your own website."
+  description: "This website, which has been manually created and coded (with some AI assistance). If you like the design, feel free to check out the code and use it as a template for your own website."
   tech: ["GitHub Pages"]
   featured: false
 
