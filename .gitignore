@@ -44,6 +44,9 @@ yarn-error.log*
 *.bak
 *.backup
 
+# Drafts
+_drafts/
+
 # Image originals (if you keep high-res versions)
 # Uncomment if you store original images separately
 # assets/images/originals/

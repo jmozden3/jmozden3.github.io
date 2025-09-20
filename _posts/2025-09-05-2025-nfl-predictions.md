@@ -7,8 +7,6 @@ tags: [football, prediction]
 excerpt: "Football is back!!"
 ---
 
-# 2025 NFL Predictions
-
 The anticipation for football is finally over as we kick off week 1 of the football seasons. I, for one, am particularly ready for some football given a) I felt it was a particularly underwhelming summer for sports (no olympics, no world cup, regular season baseball is boring in general) and b) my Patriots might actually be a competent football team this time around. 
 
 Every year, my buddy Drew K. and I run through our division, record, and playoff predictions for the NFL year, as well as a bold prediction for each divison. Here we go!
@@ -73,7 +71,7 @@ Fly Eagles, fly. It's all about the **Eagles, your eventual division champs**. I
 
 ## NFC North
 
-I think this is a loaded division and is my choice for best in football, edging out the AFC West. There are three legitimate contenders in the Lions, Packers, and Minnesota (although I believe in them less). Chicago _should_ be an upgrade from last year with the addition of Ben Johnson and hopefully he can help Caleb Williams to a better season two. Even though there is some turnover in Detroit, with both coordinators leaving, they still leave in place an awesome core of players and a coach that has completely turned around their franchise. The Lions won the division last year with a slew of injuries, and with everyone returning, I think **Detroit is your division winner**. The Vikings 52 man roster, sans their QB, might be the best in football, but I you're gunna have show me JJ is any good before I make them true SB contenders. I think the Packers could have a legit shot at taking home the Lombardi this year. I think Jordan Love is a good QB, you have a great coach, and an AWESOME new game-changing player in Micah Parsons. I have other worries about their defense, but if the D can round into form, be on the lookout for the Packers. Lastly, the Bears will be fun, and that's what should matter for the lovely people of Chicago. They still have too many holes in their roster and I doubt they make the playoffs, but expect to see a much more competent team this time around. 
+I think this is a loaded division and is my choice for best in football, edging out the AFC West. There are three legitimate contenders in the Lions, Packers, and Minnesota (although I believe in them less). Chicago _should_ be an upgrade from last year with the addition of Ben Johnson and hopefully he can help Caleb Williams to a better season two. Even though there is some turnover in Detroit, with both coordinators leaving, they still leave in place an awesome core of players and a coach that has completely turned around their franchise. The Lions won the division last year with a slew of injuries, and with everyone returning, I think **Detroit is your division winner**. The Vikings 52 man roster, sans their QB, might be the best in football, but you're gunna have show me JJ is any good before I make them true SB contenders. I think the Packers could have a legit shot at taking home the Lombardi this year. I think Jordan Love is a good QB, you have a great coach, and an AWESOME new game-changing player in Micah Parsons. I have other worries about their defense, but if the D can round into form, be on the lookout for the Packers. Lastly, the Bears will be fun, and that's what should matter for the lovely people of Chicago. They still have too many holes in their roster and I doubt they make the playoffs, but expect to see a much more competent team this time around. 
 
 1. Detroit Lions: 11-6 (X)
 2. Green Bay Packers: 10-7 (Y)
@@ -129,8 +127,8 @@ Probably the least exciting division for like...the 500th year in a row...so I w
 ## Awards
 
 These awards kind of dumb IMO so I'm going to keep this to a minimum:
-- MVP: Joe Burrow - He will have to air it out this year and will put up monster numbers. I think they can be a bit better defensively and will be a good team that makes the playoffs. I'm banking on a bit of "voter fatigue" here with Mahomes, Jackson, and Allen having all already won.
-- Comeback player of the year: I'm actually just going to use this section to complain about how I'm still baffled Damar Hamlin didn't win this award a few years ago. These awards are all narrative driven and the man literally DIED on the field and came back to play. You know how much mental and physical fortitude that takes? Congrats on voting Joe Flacco for that award who got shit on in the playoffs. Just remember we gave MVP to a kicker in the 80s so don't tell me its purely on pure football player acumen. Christ that was so dumb.
+- **MVP**: Joe Burrow - He will have to air it out this year and will put up monster numbers. I think they can be a bit better defensively and will be a good team that makes the playoffs. I'm banking on a bit of "voter fatigue" here with Mahomes, Jackson, and Allen having all already won.
+- **Comeback player of the year**: I'm actually just going to use this section to complain about how I'm still baffled Damar Hamlin didn't win this award a few years ago. These awards are all narrative driven and the man literally DIED on the field and came back to play. You know how much mental and physical fortitude that takes? Congrats on voting Joe Flacco for that award who got shit on in the playoffs. Just remember we gave MVP to a kicker in the 80s so don't tell me its purely on pure football player acumen. Christ that was so dumb.
 
 ## Predictions that could be laughably incorrect
 Many, but specifically...
