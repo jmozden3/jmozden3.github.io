@@ -19,7 +19,7 @@ I am totally fascinated by Dyson spheres. They're just so cool to think about. T
 ![Dyson Sphere photo](/assets/images/dyson-sphere.jpg)
 > *What a Dyson Sphere could look like*
 
-Impossible? Perhaps. But, to me, that is the point. 
+Impossible? Perhaps. But that should be the point. Everyone needs their 'Dyson Sphere.' 
 
 ## Ingenuity is Humanity's Engine
 
@@ -34,9 +34,9 @@ The reason I love Dyson Spheres so much isn't because I think it's plausible (at
 
 And you know what's cool about all this? We don't even need a Dyson Sphere to achieve ultimate energy abundance. A (legitimately achievable, with the right focus) step down is a Dyson Swarm; instead of completely encompassing the sun, we just send a "swarm" of millions (or billions!) of independent solar collectors orbiting the sun. This offers the same level of energy harvesting in a much more feasible manner. Here is a [good explainer](https://youtu.be/pP44EPBMb8A?si=WIPTkJ2bYMCbfCnn) on how we would do it. 
 
-Oh, and what's even cooler than _THAT_? We've made incredible improvements in renewable energy that brings us ever so closer to an clean energy abundant future. Solar panel efficiency has been hitting efficiency record after efficiency record. Battery storage is revolutionizing the grid. Space launch costs have dropped dramatically. It has become more economically feasible than ever to use renewable energy than fossil fuels. 
+Oh, and what's even cooler than _THAT_? We've made incredible improvements in renewable energy that brings us ever so closer to an clean energy abundant future. [Solar panel efficiency](https://www.noahpinion.blog/i/165684804/why-solar-is-for-real) has been hitting efficiency record after efficiency record. [Battery storage is revolutionizing](https://www.wired.com/story/grid-scale-battery-storage-is-quietly-revolutionizing-the-energy-system/) the grid. [Space launch costs](https://arc.aiaa.org/doi/10.2514/6.2025-4073) have dropped dramatically. It has become [more economically feasible than ever](https://www.reuters.com/business/energy/around-90-renewables-cheaper-than-fossil-fuels-worldwide-irena-says-2025-07-22/) to use renewable energy than fossil fuels. 
 
-All of these improvements compound towards the bigger vision. Better solar panels build momentum for a renewable, upwing future. Cheaper launches make space exploration more affordable. Better manufacturing enables space-infrastructure. Advanced batteries enable storage at any scale we need.
+All of these improvements compound towards the bigger vision. Better solar panels build momentum for a renewable, upwing future. Cheaper launches make space exploration easier. Better manufacturing enables space-infrastructure. Advanced batteries enable storage at any scale we need.
 
 ## Being Upwing 
 
