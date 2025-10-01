@@ -4,7 +4,7 @@ title: "DYSON SPHERES FTW!!!"
 date: 2025-09-20 12:00:00 -0500
 categories: tech
 tags: [science, upwing]
-excerpt: "Dreaming big today to build big tomorrow"
+excerpt: "I'd encourage everyone to have an impossible dream big enough to push forward what is possible today"
 ---
 
 I'm a huge fan of Spiderman 2. Besides it being an absolutely kick ass movie, it was one of the first movies I watched as a young buck where I thought "you know...the villain is kind of onto something here." 
