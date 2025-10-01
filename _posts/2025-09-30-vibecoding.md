@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Vibecoding 101"
-date: 2025-09-07 12:00:00 -0500
+date: 2025-09-30 12:00:00 -0500
 categories: tech
 tags: [AI, coding]
 excerpt: "AI can help anyone build - we should encourage that"
