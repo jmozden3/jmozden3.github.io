@@ -4,7 +4,7 @@ title: "DYSON SPHERES FTW!!!"
 date: 2025-09-20 12:00:00 -0500
 categories: tech
 tags: [science, upwing]
-excerpt: "It's important to dream big today so we can build for our tomorrow"
+excerpt: "Dreaming big today to build big tomorrow"
 ---
 
 I'm a huge fan of Spiderman 2. Besides it being an absolutely kick ass movie, it was one of the first movies I watched as a young buck where I thought "you know...the villain is kind of onto something here." 
