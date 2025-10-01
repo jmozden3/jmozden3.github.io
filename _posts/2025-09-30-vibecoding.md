@@ -4,7 +4,7 @@ title: "Vibecoding 101"
 date: 2025-09-30 12:00:00 -0500
 categories: tech
 tags: [AI, coding]
-excerpt: "AI can help anyone build - we should encourage that"
+excerpt: "Building stuff just got a whole lot easier"
 ---
 
 On a beautiful sunny day in Upper West Side, I was walking and talking about AI with my school buddy, as all business students seem to do 24/7/365. In the midst of our discussion he mentioned to me...
