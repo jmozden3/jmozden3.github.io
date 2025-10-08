@@ -26,7 +26,7 @@ AI tools like ChatGPT, Claude, and Gemini have gotten so good at writing code th
 ![Business students discussing AI](/assets/images/talking-about-ai-dalle.png)
 > *DALL-E generated image of "Two businesss school students discussing AI on a sunny day in New York City's Upper West Side, using a cartoon art style"*
 
-## Let go, give in, vibe on
+## A general walkthrough of vibecoding
 
 I am not a programmer by nature myself, but vibecoding has helped me build more than I ever imagined I could have. It helped me build [this game](https://topfive-h7dtbccrgmd8gye8.eastus2-01.azurewebsites.net/), or even this very website. It helped my non-technical friend [build his website](https://duncanheidkamp.com/), and helped countless others build to their hearts' desires. 
 
@@ -51,7 +51,7 @@ _"I've never coded before and want to build something simple to get started - ma
 
 Then just follow along. It seems like a lot the first time, but once you do it once, you'll realize how straightforward it actually is. And like anything else, the more you do, the more you learn. 
 
-## A broader point about vibecoding
+## The broader point
 
 Does this mean we should vibecode everything? Definitely not. AI still is not as good as our best programmers at producing code. It may produce a lot of it, but it doesn't mean it's always right. AI often overcomplicates really simple tasks and that can lead to a plethora of issues. I absolutely do not want AI (at least right now) coding critical software that people's lives might depend on.  AI models are nothing more than a prediction tool and sometimes those predictions can go horribly wrong. For now, and possibly forever, there is always a place for programmers. 
 

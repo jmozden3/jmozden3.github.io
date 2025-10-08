@@ -23,9 +23,7 @@ I am totally fascinated by Dyson spheres. They're just so cool to think about. T
 ![Dyson Sphere photo](/assets/images/dyson-sphere.jpg)
 > *What a Dyson Sphere could look like*
 
-Do I think we will build a Dyson Sphere in our lifetime? No, I don't. But that is not really the point.
-
-## The Point is Less About the Sphere and More About the Dream
+Do I think we will build a Dyson Sphere in our lifetime? No, probably not. But the point is more about dreaming of what we can do and less of the actual _thing_ itself. 
 
 I'm a natural optimist, and thinking about a Dyson Sphere has made me think positively about our future and what we _can_ accomplish. Everyone needs their "Dyson Sphere." Not literally, but metaphorically. We all need something that seems wildly ambitious and absurdly optimistic to aim for. These dreams are the foundation of human progress. 
 
@@ -35,8 +33,6 @@ When Kennedy announced we would go to the moon, rockets barely worked and comput
 > *Star Trek and Dyson Sphere: https://youtu.be/12bU6BFsStU?si=q2xxYxGZwKa4DIu6*
 
 This is why I love Dyson spheres. Not because we will build one tomorrow, but because dreaming at this scale changes how we approach our problems today. In my case, Dyson spheres help me dream about a world of energy abundance. Instead of asking how we can use less we should start asking how we create more. Instead of scarcity, engineer plenty. After all, why shouldn't we dreaam of an energy abundant world? Or a world with high-speed rail, flying cars, or colonizing Mars? Truly, it's ours for the taking. None of this is impossible.
-
-## Poco a Poco...little by little
 
 Once you start thinking about capturing a star's entire energy output, grand progress becomes clearer, step by step. What's cool about this grandiose vision is that we don't even need a Dyson sphere to achieve ultimate energy abundance. A legitimately achievable (with the right focus) step down from a Dyson sphere is a Dyson swarm; instead of a solid shell completely encompassing the sun, we build it piece by piece by sending a "swarm" of millions (or billions!) of independent solar collectors to orbit the sun. This offers the same level of energy harvesting in a much more feasible manner. Here is a [good explainer](https://youtu.be/pP44EPBMb8A?si=WIPTkJ2bYMCbfCnn) on how we would do actually do it.
 
