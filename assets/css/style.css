@@ -422,16 +422,6 @@ body {
     color: #92400e;      /* dark amber */
 }
 
-/* Make any 'sports' filter buttons pick up the same yellow styling */
-.featured-filter-btn[data-filter="sports"],
-.filter-btn[data-filter="sports"],
-.post-filter-btn[data-filter="sports"],
-.blog-filter-btn[data-filter="sports"] {
-    background: #fde68a;
-    color: #92400e;
-    border-color: #fcd34d; /* subtle yellow border */
-}
-
 /* Footer */
 .site-footer {
     background: #f8fafc;
