@@ -11,7 +11,7 @@
 - name: "My Website"
   type: "template"
   github: "https://github.com/jmozden3/jmozden3.github.io.git"
-  description: "This website, which has been manually created and coded (with some AI assistance). If you like the design, feel free to check out the code and use it as a template for your own website."
+  description: "This website, which has been manually created and vibecoded. If you like the design, feel free to check out the code and use it as a template for your own website."
   tech: ["GitHub Pages"]
   featured: false
 
@@ -19,7 +19,14 @@
   type: "tool"
   github: "https://github.com/jmozden3/spotify-playlist-extractor"
   description: "A simple Python tool to extract all tracks from any Spotify playlist and export them to CSV or TXT files"
-  tech: ["Python", "Tool"]
+  tech: ["Python Script","APIs"]
+  featured: false
+
+- name: "New York Times Daily Newsletter"
+  type: "tool"
+  github: "https://github.com/jmozden3/nyt-daily-newsletter"
+  description: "A script that automatically sends me a daily email with a news story I am interested in from The New York Times"
+  tech: ["Python Script","APIs", "Email Automation"]
   featured: true
 
 - name: "Azure AI Agents Lab"

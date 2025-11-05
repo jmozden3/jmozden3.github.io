@@ -6,10 +6,10 @@
   badge: "AI"
   link: "https://github.com/DanGiannone1/ai-powered-search-engine"
 
-- title: "Spotify Playlist Extractor"
-  description: "A simple Python tool to extract all tracks from any Spotify playlist and export them to CSV or TXT files"
+- title: "New York Times Daily Newsletter"
+  description: "A script that automatically sends me a daily email with a news story I am interested in from The New York Times"
   badge: "Tool"
-  link: "https://github.com/jmozden3/spotify-playlist-extractor"
+  link: "https://github.com/jmozden3/nyt-daily-newsletter"
 
 - title: "Top Five"
   description: "An online ranking game for friends and family. Play by clicking on the title!"
@@ -20,11 +20,6 @@
   description: "Building stuff just got a whole lot easier"
   badge: "Blog Post"
   link: "https://joemozden.com/tech/2025/09/30/vibecoding.html"
-
-- title: "Dyson Spheres FTW!!"
-  description: "I'd encourage everyone to have an impossible dream big enough to push forward what is possible today"
-  badge: "Blog Post"
-  link: "https://joemozden.com/tech/2025/09/20/dyson-spheres.html"
 
 - title: "2025 NFL Predictions"
   description: "Football is back!!"
