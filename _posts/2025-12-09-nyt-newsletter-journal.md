@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Project Diary: NYT Daily Newsletter"
-date: 2025-11-30 12:00:00 -0500
+date: 2025-12-09 12:00:00 -0500
 categories: tech
 tags: [API, deployment]
-excerpt: "My process for building a tool that sends me a daily personalized NYT "
+excerpt: "My process for building a tool that sends me a daily personalized NYT article"
 ---
 
 ![Email Inbox](/assets/images/nyt-newsletter-email.png)
