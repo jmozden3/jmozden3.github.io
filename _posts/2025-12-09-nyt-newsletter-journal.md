@@ -53,8 +53,9 @@ The Article Search API was my choice for NYC-specific content. It's the most rob
 
 For my Wednesday, Thursday, and Friday articles, the config looks like this:
 
-# 7-Day Rotation Schedule
 ```python
+# 7-Day Rotation Schedule
+
 WEEKLY_SCHEDULE = {
     2: {  # Wednesday
         "name": "NYC Food & Dining",
@@ -115,7 +116,7 @@ That unlocked everything:
 
 Once those were resolved, it was off to the races. The article search API lets you filter by so much more...I just tailored it to my needs. It would be easy for others to tinker with those parameters to find articles they were interested in. 
 
-## Top Stories
+### Top Stories
 
 For all my non-local articles, I just wanted to know what the top stories were for industries I am interested in - in this case, that is business and tech (there are many more options than just that). What I didn't originally understand, however, was what 'top story' meant. The documentation defines it as this...
 
@@ -125,7 +126,7 @@ What does that mean? Currently on the specified section of what? And where on th
 
 In order to find this out , I tested two things:
 1. Run the API and see what it returns
-2. Look at that particular section on the newyorktimes.com and see where those API articles are. 
+2. Look at that particular section on the nytimes.com and see where those API articles are. 
 
 To do that, I run the top stories for business:
 
@@ -174,7 +175,7 @@ This API is designed to return an array of stories, not just one. Ideally, I'd u
 
 ### Most Popular 
 
-I just wanted to add the most popular story in a given week to my reading repetoire just because I want to see what everyone else is reading. This API is, by far, the most straightforward of the bunch - what is the most popular news story within the last 7 days. Since 'most popular' can be defined as most shared, most emailed, or most viewed, I had to decide what I wanted for my newsletter. While most shared and most emailed might be better for understanding engagement, I was simply trying to read what everyone else was reading. For that reason, I used the parameter of most viewed for this API call.
+I wanted to add the most popular story in a given week to my reading repetoire just because I want to see what everyone else is reading. This API is, by far, the most straightforward of the bunch - what is the most popular news story within the last 7 days. Since 'most popular' can be defined as most shared, most emailed, or most viewed, I had to decide what I wanted for my newsletter. While most shared and most emailed might be better for understanding engagement, I was simply trying to read what everyone else was reading. For that reason, I used the parameter of most viewed for this API call.
 
 In this example call, you can notice how it says 'viewed' in the parameters. That could've been swapped with 'shared' or 'emailed.'
 
@@ -214,11 +215,11 @@ We are going to do this by deploying our script to the internet. Our code curren
 
 This is what deployment does - you upload your code somewhere and another computer runs it. That is how applications are always running - we might code them on our computers, but that code is uploaded to computers (often time hundreds, if not thousands of computers) somewhere else in the world. When you hear of cloud companies like Microsoft , Amazon, and Google, this is a core part of their business - they host your applications in the 'cloud' - which really just means they host your stuff on their servers somewhere. 
 
-For this application, [pythonanywhere](https://www.pythonanywhere.com/) worked really well - python anywhere's free version gets me 512mb of storage, one daily cron job, and enough compute to run my script, which is all I need. I'd recommend pythonanywhere for anyone that has a lightweight application that doesn't need more than one automated task a day. 
+For this application, [pythonanywhere](https://www.pythonanywhere.com/) worked really well - pythonanywhere's free version gets me 512mb of storage, one daily cron job, and enough compute to run my script, which is all I need. I'd recommend pythonanywhere for anyone that has a lightweight application that doesn't need more than one automated task a day. 
 
 # What I Learned
 
-Could this be built with no-code tools (Loveable, Replit) or a different tech stack? Absolutely. But building it myself taught me things I wouldn't have learned otherwise:
+Could this be built with no-code tools ([Loveable](https://lovable.dev/), [Replit](https://replit.com/)) or a different tech stack? Absolutely. But building it myself taught me things I wouldn't have learned otherwise:
 
 **1. AI has blind spots — you still need to know fundamentals to catch them**
 
@@ -234,7 +235,7 @@ AI can implement once you tell it what to build. But I still had to decide:
 - How to connect Gmail SMTP to my script
 - Where to deploy and how to automate it
 
-Knowing how pieces fit together and making those architectural decisions — that's what makes you effective with AI. You need to have the strategic vision and decision-making skills, but AI executes. (My old coworker Dan Giannone has a really good post about this thought you can find [here](https://www.linkedin.com/pulse/from-coding-thinking-future-software-development-dan-giannone-eipoe)
+Knowing how pieces fit together and making those architectural decisions — that's what makes you effective with AI. You need to have the strategic vision and decision-making skills, but AI executes. (My old coworker Dan Giannone has a really good post about this thought you can find [here](https://www.linkedin.com/pulse/from-coding-thinking-future-software-development-dan-giannone-eipoe))
 
 **3. Hands-on keeps you sharp and up-to-date**
 
