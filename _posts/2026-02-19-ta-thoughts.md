@@ -2,8 +2,8 @@
 layout: post
 title: "Lessons from TAing my favorite class"
 date: 2026-02-18 12:00:00 -0500
-categories: general
-tags: [tech]
+categories: tech
+tags: [education, AI]
 excerpt: "What do newly minted techies build? And how?"
 ---
 
