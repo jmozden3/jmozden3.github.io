@@ -41,8 +41,8 @@ title: Other
                     <img src="assets/images/iufb-nicks.jpeg" alt="IU Football - Nicks">
                     <img src="assets/images/iufb-kirkwood.jpeg" alt="IU Football - Kirkwood">
                 </div>
-                <p>I've always been afraid that NCAAM blue-blood IU would never hang another banner in basketball. Never in my life did I ever expect IUFB to win the college football championship.</p>
-                <p>Thank you Fernando Mendoza, Curt Cignetti, and the entire IU football team for giving me the most fun I've ever had watching football — and the most fun I'll ever have watching football in my life. My favorite team will ever go undefeated and win it all for the first time ever again.</p>
+                <p>I've always been afraid that I'd die before ever seeing NCAAM blue-blood IU hang another banner. Never in my life did I ever expect IUFB to win the college football championship.</p>
+                <p>Thank you Fernando Mendoza, Curt Cignetti, and the entire IU football team for giving me the most fun I'll ever have watching football in my life. My favorite team will never go undefeated and win it all for the first time ever again.</p>
             </div>
 
             <div class="thought-card">
@@ -151,6 +151,41 @@ title: Other
     height: 140px;
     object-fit: cover;
     display: block;
+    cursor: zoom-in;
+    transition: opacity 0.2s ease;
+}
+
+.card-images img:hover {
+    opacity: 0.85;
+}
+
+.lightbox-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+.lightbox-overlay.active {
+    display: flex;
+}
+
+.lightbox-overlay img {
+    max-width: 90vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+    animation: lightbox-in 0.2s ease;
+}
+
+@keyframes lightbox-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
 }
 
 .thought-card h3 {
@@ -262,3 +297,26 @@ blockquote cite {
     }
 }
 </style>
+
+<div class="lightbox-overlay" id="lightbox">
+    <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+    const overlay = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+
+    document.querySelectorAll('.card-images img').forEach(img => {
+        img.addEventListener('click', () => {
+            lightboxImg.src = img.src;
+            lightboxImg.alt = img.alt;
+            overlay.classList.add('active');
+        });
+    });
+
+    overlay.addEventListener('click', () => overlay.classList.remove('active'));
+
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') overlay.classList.remove('active');
+    });
+</script>
