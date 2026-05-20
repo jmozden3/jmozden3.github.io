@@ -15,6 +15,13 @@
   tech: ["GitHub Pages"]
   featured: false
 
+- name: "Team Rugby Website"
+  type: "template"
+  github: "https://github.com/CBS-RFC/website"
+  description: "A template for any sports team or club looking to create a website. Built for my rugby club, Columbia RFC, and currently live at https://www.cbs-rugby.com/"
+  tech: ["Google Stitch", "Claude Code", "Netlify"]
+  featured: false
+
 - name: "Spotify Playlist Extractor"
   type: "tool"
   github: "https://github.com/jmozden3/spotify-playlist-extractor"
