@@ -19,15 +19,17 @@ All in all, grad school looked very different from undergrad — six years after
 4. The ROI on school seems to pay off more in 5-10 years than it does right out of school. While you might get a good job right away, it's the network that helps you land the dream job down the road. Additionally, [as the world gets more "Ai-ified,"](https://open.substack.com/pub/educatedguesser/p/friction-is-a-feature?r=16gj8&utm_medium=ios) your network will matter more and more, which is an immense benefit of school.
 5. Doing grad school in a major city was the right choice. Looking back, I was really happy with my order of decisions to do a college-town undergrad (Bloomington) and a major city grad school (NYC). That sequence just made more sense for each stage of my life. 
 
-![The Met](the-met.jpeg)
+![The Met](/assets/images/the-met.jpeg)
 *I went to the Met a few times which made me feel like a real New Yorker*
 
+{:start="6"}
 6. NYC is the best place I have ever lived. It's expensive as hell but you get what you pay for. I found myself spending more money on doing things just because there's always something to do - every block has an amazing restaurant, bar, theater, or most likely, all three.
 
 ![Engagement Photo 1](/assets/images/new-york-engagement-photo-1.jpeg)
 ![Engagement Photo 2](/assets/images/new-york-engagement-photo-2.jpeg)
 *Christina and I got some great engagement photos in the city*
 
+{:start="7"}
 7. Also, New Yorkers aren't mean, they are just direct. 
 8. Contrary to undergrad where everyone is growing up together, most people at grad school are at a different stage of their life. You naturally gravitate towards people in the same 'life-stage' as you. This can be a challenge for building friendships but also led to a cool diversity of experience. 
 9. Joining rugby was the best decision I made at school because it brought together all different kinds of people for a common goal. You gain a lot of mutual respect when you put your bodies on the line for one another (especially when you're closer to 30 than 20), and you cannot manufacture that respect anywhere else in school. 
@@ -35,6 +37,7 @@ All in all, grad school looked very different from undergrad — six years after
 ![Rugby Team Photo](/assets/images/rugby-team-photo-2026.jpeg)
 *The Fellas*
 
+{:start="10"}
 10. Going to an Ivy league school does not mean I'd work with everyone here. There are a lot of very smart people at the school, but just like anywhere else, you have those you'd choose to work with and those you'd choose not to. 
 11. The clubs at grad school make and grow the community.
 12. The hardest, but most rewarding, semester of school is the first - new environment, intense classes, and you're likely recruiting. Doing all this at once is challenging; however, there is a sense of 'shared trauma' quality to those 4 months that bring together the students going through it. 
@@ -50,6 +53,7 @@ All in all, grad school looked very different from undergrad — six years after
 ![Orientation](/assets/images/peer-advisor-shirt.jpeg)
 *My fellow orientation leaders for one of the clusters at CBS*
 
+{:start="15"}
 15. Opportunities at grad school aren't just handed to you on a silver platter, as some people seemed to think at the beginning. However, there are more opportunities available and presented to you than anywhere else I've ever seen. Opportunities to do anything and everything, professionally and socially...they just take a lot of effort to get.
 16. The most engaged classrooms had a no-laptops no-phones policy. We were all provided a locked down iPad for notes, which worked well. 
 17. My biggest classroom pet peeve was when people were on their laptops during guest speakers. It makes them look bad but it also makes everyone else look bad.
@@ -58,6 +62,7 @@ All in all, grad school looked very different from undergrad — six years after
 ![Karaoke Night](/assets/images/karaoke-night-with-friends.jpeg)
 *One of my favorite nights of NYC - bringing some of our best friends from Chicago out to Karaoke at 3AM*
 
+{:start="19"}
 19. I used AI a lot in school - specifically, I used tools like Claude and ChatGPT as private tutors to go deeper on concepts, and NotebookLM to make podcast summaries of cases I read. AI *enhanced* my learning experience. 
 20. At some point midway through second semester year two (Spring 2026) students started speaking of Claude as their main AI tool instead of ChatGPT, which was the most prevalent tool until then. While I cannot pinpoint why exactly this happened, I think it's likely some mix of the fact that [Claude got a lot of popular press for the refusal of the DOD contract](https://www.anthropic.com/news/statement-department-of-war) (and [vice versa](https://openai.com/index/our-agreement-with-the-department-of-war/) for OpenAI) and then people started noticing it had better models around that same time. 
 21. AI is creating a bifuraction of student effort. For one half, it's enhancing everything they do - better prep, better analysis, better productivity, and even better creativity. For others, it's simply a bypass. It's hallowing out the majority middle and pushing students towards either effort extreme - much more or much less. [Mark Cuban thinks so too](https://x.com/Kantrowitz/status/2054246795702943863?s=20). 
