@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "26 Thoughts on Graduating CBS Class of 2026"
-date: 2026-05-20 12:00:00 -0500
-categories: General
+date: 2026-05-20 00:00:00 +0000
+categories: general
 tags: [education]
 excerpt: "Some final thoughts on my 2 years at school"
 ---
