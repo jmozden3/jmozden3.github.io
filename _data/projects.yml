@@ -20,7 +20,7 @@
   github: "https://github.com/CBS-RFC/website"
   description: "A template for any sports team or club looking to create a website. Built for my rugby club, Columbia RFC, and currently live at https://www.cbs-rugby.com/"
   tech: ["Google Stitch", "Claude Code", "Netlify"]
-  featured: false
+  featured: true
 
 - name: "Spotify Playlist Extractor"
   type: "tool"
@@ -34,7 +34,7 @@
   github: "https://github.com/jmozden3/nyt-daily-newsletter"
   description: "A script that automatically sends me a daily email with a news story I am interested in from The New York Times"
   tech: ["Python Script","APIs", "Email Automation"]
-  featured: true
+  featured: false
 
 - name: "Azure AI Agents Lab"
   type: "ai"
