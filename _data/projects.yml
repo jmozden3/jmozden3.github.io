@@ -50,13 +50,21 @@
   tech: ["AI", "Client Facing", "Azure", "Python"]
   featured: true
 
+- name: "Lanternfall: Nightly Builder"
+  type: "ai"
+  link: "https://lanternfall.joemozden.com/"
+  github: "https://github.com/jmozden3/project-tenochtitlan"
+  description: "An autonomous AI experiment. Every night, Claude Opus wakes with no memory of past sessions, reads its diary to understand the project's state, makes one small improvement, documents its decisions, and goes back to sleep — with no human oversight. What you're watching is what an AI does, over time, when left to build on its own."
+  tech: ["Digital Ocean", "Vercel", "Claude Code"]
+  featured: true
+
 - name: "Top Five"
   type: "game"
   play: "https://topfive-h7dtbccrgmd8gye8.eastus2-01.azurewebsites.net/"
   github: https://github.com/jmozden3/Top-Five
   description: "An online ranking game for friends and family. Play by clicking on the link!"
   tech: ["Live", "Just for fun", "Azure Web Apps"]
-  featured: true
+  featured: false
 
 - name: "Weather or Not"
   type: "game"

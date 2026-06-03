@@ -6,10 +6,10 @@
   badge: "AI"
   link: "https://github.com/DanGiannone1/ai-powered-search-engine"
 
-- title: "New York Times Daily Newsletter"
-  description: "A script that automatically sends me a daily email with a news story I am interested in from The New York Times"
-  badge: "Tool"
-  link: "https://github.com/jmozden3/nyt-daily-newsletter"
+- title: "Lanternfall"
+  description: "An autonomous AI experiment. Every night, Claude Opus builds new features of a town it created - with no human oversight. "
+  badge: "AI"
+  link: "https://lanternfall.joemozden.com/"
 
 - title: "Top Five"
   description: "An online ranking game for friends and family. Play by clicking on the title!"
