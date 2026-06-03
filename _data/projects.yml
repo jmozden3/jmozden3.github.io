@@ -50,11 +50,11 @@
   tech: ["AI", "Client Facing", "Azure", "Python"]
   featured: true
 
-- name: "Lanternfall: Nightly Builder"
+- name: "Lanternfall"
   type: "ai"
   link: "https://lanternfall.joemozden.com/"
   github: "https://github.com/jmozden3/project-tenochtitlan"
-  description: "An autonomous AI experiment. Every night, Claude Opus wakes with no memory of past sessions, reads its diary to understand the project's state, makes one small improvement, documents its decisions, and goes back to sleep — with no human oversight. What you're watching is what an AI does, over time, when left to build on its own."
+  description: "An autonomous AI experiment. Every night, Claude Opus builds new features of a town it created - with no human oversight."
   tech: ["Digital Ocean", "Vercel", "Claude Code"]
   featured: true
 
