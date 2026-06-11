@@ -1,5 +1,5 @@
 ---
-layout: fullpage
+layout: default
 title: "World Cup Preview 2026"
 date: 2026-06-10 12:00:00 -0500
 categories: sports
@@ -25,50 +25,36 @@ excerpt: "Getting you ready for the biggest sporting event in the world"
     --radius:14px;
     --maxw:1080px;
   }
-  *{box-sizing:border-box;margin:0;padding:0}
+  .wcg *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
-  body{
+  .wcg{
     font-family:'Inter',system-ui,sans-serif;
     color:var(--ink);background:var(--paper);
     line-height:1.65;-webkit-font-smoothing:antialiased;
   }
   @media (prefers-reduced-motion:reduce){
     html{scroll-behavior:auto}
-    *{transition:none!important;animation:none!important}
+    .wcg *{transition:none!important;animation:none!important}
   }
 
   /* ---------- type ---------- */
-  h1,h2,h3{font-family:'Archivo',sans-serif;line-height:1.02;letter-spacing:-.02em}
+  .wcg h1,.wcg h2,.wcg h3{font-family:'Archivo',sans-serif;line-height:1.02;letter-spacing:-.02em}
   .eyebrow{
     font-family:'Space Mono',monospace;font-size:.78rem;letter-spacing:.04em;
     text-transform:uppercase;color:var(--accent-ink);font-weight:700;
   }
   .eyebrow .num{color:var(--ink-soft)}
-  p{margin:0 0 1rem}
-  a{color:var(--accent-ink)}
+  .wcg p{margin:0 0 1rem}
+  .wcg a{color:var(--accent-ink)}
 
   /* ---------- layout ---------- */
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-  section{padding:84px 0;border-bottom:1px solid var(--line)}
+  .wcg section{padding:84px 0;border-bottom:1px solid var(--line)}
   .sec-head{max-width:680px;margin-bottom:34px}
   .sec-head h2{font-size:clamp(2rem,5vw,3.1rem);font-weight:900;margin:.35rem 0 .5rem;text-transform:uppercase}
   .sec-head p.lede{font-size:1.12rem;color:var(--ink-soft)}
 
   /* ---------- nav ---------- */
-  nav{
-    position:sticky;top:0;z-index:50;background:rgba(250,251,250,.86);
-    backdrop-filter:blur(10px);border-bottom:1px solid var(--line);
-  }
-  .nav-in{display:flex;align-items:center;justify-content:space-between;height:60px}
-  .brand{font-family:'Space Mono',monospace;font-weight:700;font-size:.95rem;text-decoration:none;color:var(--ink)}
-  .brand b{color:var(--accent-ink)}
-  .nav-links{display:flex;gap:22px}
-  .nav-links a{
-    font-family:'Space Mono',monospace;font-size:.8rem;text-decoration:none;color:var(--ink-soft);
-    text-transform:uppercase;letter-spacing:.03em;
-  }
-  .nav-links a:hover{color:var(--accent-ink)}
-  @media(max-width:760px){.nav-links{display:none}}
 
   /* ---------- hero ---------- */
   .hero{
@@ -287,26 +273,10 @@ excerpt: "Getting you ready for the biggest sporting event in the world"
   .qr-alt{margin-top:18px;font-size:.84rem;color:var(--ink-soft)}
   .qr-alt button{background:none;border:0;color:var(--accent-ink);cursor:pointer;font:inherit;text-decoration:underline;padding:0}
 
-  footer{background:var(--pitch);color:#9fc4b3;padding:48px 0;border:none}
-  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
-  footer a{color:#cfe0d7}
-  .foot-brand{font-family:'Archivo';font-weight:900;color:var(--chalk);font-size:1.2rem;text-transform:uppercase}
 </style>
 
-<nav>
-  <div class="wrap nav-in">
-    <a class="brand" href="#top">// <b>WC26</b> guide</a>
-    <div class="nav-links">
-      <a href="#how">How it works</a>
-      <a href="#lineup">The lineup</a>
-      <a href="#usa">Team USA</a>
-      <a href="#favorites">Favorites</a>
-      <a href="#scout">Scout a team</a>
-      <a href="#watch">Watch</a>
-    </div>
-  </div>
-</nav>
 
+<div class="wcg">
 <!-- ================= HERO ================= -->
 <header class="hero" id="top">
   <div class="wrap">
@@ -632,12 +602,7 @@ excerpt: "Getting you ready for the biggest sporting event in the world"
   </div>
 </div>
 
-<footer>
-  <div class="wrap">
-    <span class="foot-brand">// WC26 Guide</span>
-    <span style="font-family:'Space Mono',monospace;font-size:.8rem">Built by Joe Mozden · <a href="https://joemozden.com">joemozden.com</a></span>
-  </div>
-</footer>
+</div>
 
 <script>
 /* ---------- countdown to the first game of the WC (Mexico, Mexico City — Jun 11 2026) ---------- */
