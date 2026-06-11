@@ -284,7 +284,7 @@ excerpt: "Getting you ready for the biggest sporting event in the world"
     <h1>The World Cup is here. Let's get you <em>up to speed.</em></h1>
     <p class="sub">No soccer knowledge required. How it works, where the US stands, and what to watch.</p>
     <div class="stamp">
-      <span>🏟️ First game: <b>Mexico vs South Africa</b> · Mexico City — <b>Thu, Jun 11 · 9pm ET</b></span>
+      <span>🏟️ First game: <b>Mexico vs South Africa</b> · Mexico City — <b>Thu, Jun 11 · 3pm ET</b></span>
     </div>
     <div class="countdown" id="countdown" aria-label="Countdown to the first game of the World Cup"></div>
   </div>
@@ -607,7 +607,7 @@ excerpt: "Getting you ready for the biggest sporting event in the world"
 <script>
 /* ---------- countdown to the first game of the WC (Mexico, Mexico City — Jun 11 2026) ---------- */
 (function(){
-  var target=new Date('2026-06-11T19:00:00-06:00').getTime();
+  var target=new Date('2026-06-11T15:00:00-04:00').getTime();
   var el=document.getElementById('countdown');
   function tick(){
     var d=target-Date.now();
