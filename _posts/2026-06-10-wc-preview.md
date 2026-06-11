@@ -5,6 +5,7 @@ date: 2026-06-10 12:00:00 -0500
 categories: sports
 tags: [sports, soccer]
 excerpt: "Getting you ready for the biggest sporting event in the world"
+image: https://jmozden3.github.io/assets/images/USMNT-scaled.jpg
 ---
 
 <style>
