@@ -24,7 +24,10 @@
 </head>
 <body>
     <div class="site-container">
-        <!-- Navigation -->
+        <!-- Navigation — sticky site nav. REQUIRED on every page (incl. custom-HTML posts).
+             All layouts inherit this via `layout: default`. Do not remove.
+             Custom posts: scope your CSS (e.g. under a `.wcg`-style class) and avoid
+             styling html/body/.site-container or reusing .main-nav/.nav-* names. -->
         <nav class="main-nav">
             <div class="nav-brand">
                 <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
