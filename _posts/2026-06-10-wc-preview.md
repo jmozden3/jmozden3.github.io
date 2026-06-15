@@ -50,12 +50,30 @@ image: https://jmozden3.github.io/assets/images/USMNT-scaled.jpg
 
   /* ---------- layout ---------- */
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
-  .wcg section{padding:84px 0;border-bottom:1px solid var(--line)}
+  .wcg section{padding:84px 0;border-bottom:1px solid var(--line);scroll-margin-top:84px}
+  @media(max-width:768px){.wcg section{scroll-margin-top:150px}}
   .sec-head{max-width:680px;margin-bottom:34px}
   .sec-head h2{font-size:clamp(2rem,5vw,3.1rem);font-weight:900;margin:.35rem 0 .5rem;text-transform:uppercase}
   .sec-head p.lede{font-size:1.12rem;color:var(--ink-soft)}
 
   /* ---------- nav ---------- */
+
+  /* ---------- table of contents (non-sticky) ---------- */
+  .toc-wrap{padding-top:44px;padding-bottom:44px}
+  .toc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 26px}
+  .toc-head{
+    font-family:'Space Mono',monospace;font-size:.78rem;letter-spacing:.04em;
+    text-transform:uppercase;color:var(--accent-ink);font-weight:700;display:block;margin-bottom:16px;
+  }
+  .toc-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  @media(max-width:680px){.toc-grid{grid-template-columns:1fr}}
+  .toc-item{
+    display:flex;align-items:baseline;gap:12px;text-decoration:none;color:var(--ink);
+    border:1px solid transparent;border-radius:10px;padding:10px 12px;transition:all .15s;
+  }
+  .toc-item:hover,.toc-item:focus-visible{border-color:var(--accent);background:rgba(255,67,50,.04);transform:translateX(3px);outline:none}
+  .toc-item .tn{font-family:'Space Mono',monospace;font-size:.8rem;font-weight:700;color:var(--accent-ink);min-width:1.6em}
+  .toc-item .tt{font-family:'Archivo',sans-serif;font-weight:700;font-size:1rem;text-transform:uppercase;letter-spacing:-.01em;line-height:1.2}
 
   /* ---------- hero ---------- */
   .hero{
@@ -290,6 +308,25 @@ image: https://jmozden3.github.io/assets/images/USMNT-scaled.jpg
     <div class="countdown" id="countdown" aria-label="Countdown to the first game of the World Cup"></div>
   </div>
 </header>
+
+<!-- ================= TABLE OF CONTENTS ================= -->
+<nav class="toc-wrap wrap" aria-label="Table of contents">
+  <div class="toc">
+    <span class="toc-head">// On this page</span>
+    <div class="toc-grid">
+      <a class="toc-item" href="#why"><span class="tn">01</span><span class="tt">Why you should care</span></a>
+      <a class="toc-item" href="#how"><span class="tn">02</span><span class="tt">How this whole thing works</span></a>
+      <a class="toc-item" href="#basics"><span class="tn">03</span><span class="tt">Soccer in five minutes</span></a>
+      <a class="toc-item" href="#lineup"><span class="tn">04</span><span class="tt">How the US lines up</span></a>
+      <a class="toc-item" href="#usa"><span class="tn">05</span><span class="tt">Team USA</span></a>
+      <a class="toc-item" href="#favorites"><span class="tn">06</span><span class="tt">Who's going to win this</span></a>
+      <a class="toc-item" href="#storylines"><span class="tn">07</span><span class="tt">Storylines</span></a>
+      <a class="toc-item" href="#scout"><span class="tn">08</span><span class="tt">Scout any team</span></a>
+      <a class="toc-item" href="#watch"><span class="tn">09</span><span class="tt">Where &amp; when to watch</span></a>
+      <a class="toc-item" href="#pack"><span class="tn">10</span><span class="tt">Your bandwagon starter pack</span></a>
+    </div>
+  </div>
+</nav>
 
 <!-- ================= 01 WHY CARE ================= -->
 <section id="why">
