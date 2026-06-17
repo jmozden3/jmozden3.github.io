@@ -20,6 +20,7 @@
   description: "Following the 2026 World Cup as it happens, with extra emphasis on the USMNT"
   badge: "Blog Post"
   link: "https://joemozden.com/worldcup/"
+  live: true   # shows a pulsing "● Live" pill on the card; remove/false when the tournament ends
 
 - title: "2026 World Cup Preview"
   description: "Getting you ready for the biggest sporting event in the world"

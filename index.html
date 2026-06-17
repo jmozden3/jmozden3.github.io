@@ -46,6 +46,7 @@ title: Welcome
             {% for item in site.data.featured %}
                 <div class="featured-project-card" data-type="featured">
                     <div class="card-badge badge-{{ item.badge | downcase | replace: ' ', '-' }}">{{ item.badge }}</div>
+                    {% if item.live %}<span class="card-live"><span class="card-live-dot"></span>Live</span>{% endif %}
                     <h3 class="card-title">
                         <a href="{{ item.link }}">{{ item.title }}</a>
                     </h3>
@@ -278,6 +279,40 @@ title: Welcome
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1rem;
+}
+
+/* "Live" pill for continuously-updated featured items (set live: true in featured.yml).
+   Reuses the pulsing-dot treatment from the World Cup scores panel. */
+.card-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #c8261a;
+    background: rgba(255, 67, 50, 0.1);
+    border: 1px solid rgba(255, 67, 50, 0.35);
+    vertical-align: top;
+}
+.card-live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ff4332;
+    animation: cardLivePulse 1.4s ease-in-out infinite;
+}
+@keyframes cardLivePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .card-live-dot { animation: none; }
 }
 
 .card-title {
