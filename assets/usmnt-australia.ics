@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jmozden3.github.io//World Cup Log//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:usmnt-australia-2026-06-19@jmozden3.github.io
+DTSTAMP:20260617T000000Z
+DTSTART:20260619T190000Z
+DTEND:20260619T210000Z
+SUMMARY:USMNT vs Australia - World Cup 2026
+DESCRIPTION:USA vs Australia, Group D matchday 2 - the game that could decide the group. Kickoff 3:00 PM ET.
+LOCATION:2026 FIFA World Cup
+URL:https://jmozden3.github.io/worldcup/
+END:VEVENT
+END:VCALENDAR

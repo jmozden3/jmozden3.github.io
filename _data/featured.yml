@@ -16,15 +16,15 @@
   badge: "Game"
   link: "https://topfive-h7dtbccrgmd8gye8.eastus2-01.azurewebsites.net/"
 
+- title: "2026 World Cup Live Updates"
+  description: "Following the 2026 World Cup as it happens, with extra emphasis on the USMNT"
+  badge: "Blog Post"
+  link: "https://joemozden.com/worldcup/"
+
 - title: "2026 World Cup Preview"
   description: "Getting you ready for the biggest sporting event in the world"
   badge: "Blog Post"
   link: "https://joemozden.com/sports/2026/06/10/wc-preview.html"
-
-- title: "Lessons from TAing my favorite class"
-  description: "What do newly minted techies build? And how?"
-  badge: "Blog Post"
-  link: "https://joemozden.com/tech/2026/02/18/ta-thoughts.html"
 
 - title: "26 Thoughts on Graduating CBS Class of 2026"
   description: "Some final thoughts on my 2 years at school"
