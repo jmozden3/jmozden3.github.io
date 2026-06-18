@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T04:46:26.153Z",
+  "updated": "2026-06-18T20:34:18.725Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -269,12 +269,11 @@
       "date": "2026-06-18",
       "home": "Czech Republic",
       "away": "South Africa",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "CZE",
       "awayCode": "RSA",
-      "kickoff": "12:00 UTC-4",
       "group": "A"
     },
     {
