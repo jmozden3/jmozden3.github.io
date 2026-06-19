@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T20:34:18.725Z",
+  "updated": "2026-06-19T05:06:15.350Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -280,36 +280,33 @@
       "date": "2026-06-18",
       "home": "Mexico",
       "away": "South Korea",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "MEX",
       "awayCode": "KOR",
-      "kickoff": "19:00 UTC-6",
       "group": "A"
     },
     {
       "date": "2026-06-18",
       "home": "Switzerland",
       "away": "Bosnia & Herzegovina",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 4,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "SUI",
       "awayCode": "BIH",
-      "kickoff": "12:00 UTC-7",
       "group": "B"
     },
     {
       "date": "2026-06-18",
       "home": "Canada",
       "away": "Qatar",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 6,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "CAN",
       "awayCode": "QAT",
-      "kickoff": "15:00 UTC-7",
       "group": "B"
     },
     {
