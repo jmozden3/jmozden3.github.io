@@ -148,7 +148,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
     <span class="eyebrow">// Running log</span>
     <h1>The World Cup, as it happens</h1>
     <p class="sub">Some takes as the tournament goes along. Will provide extra emphasis on USMNT analysis. Feel free to use the filter buttons below!</p>
-    <p class="wcl-next">Next USMNT match in <b id="wc-next">—</b> · USA vs Australia, Jun 19 · 3:00 PM ET</p>
+    <p class="wcl-next" id="wc-next-line">Next USMNT match in <b id="wc-next">—</b> · USA vs Türkiye, Jun 25 · 10:00 PM ET</p>
     <p class="wcl-pinned"><a href="/sports/2026/06/10/wc-preview.html"><span class="pin">⚽</span> Start here: my full World Cup preview →</a></p>
   </div>
 </header>
@@ -618,11 +618,35 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
     refresh();
   })();
 
-  /* ---- countdown to USA's next match (reuses the preview's countdown trick) ---- */
+  /* ---- countdown to USA's next match (reuses the preview's countdown trick) ----
+     SINGLE SOURCE OF TRUTH — update only NEXT_USMNT below after each USMNT game.
+       • Known next game : set opponent + kickoff (ISO 8601 w/ ET offset) + dateLabel.
+       • Date not set yet : set kickoff to null  -> the line reads "... TBD".
+                            (e.g. a knockout opponent/time we don't know yet)
+       • USA eliminated  : set eliminated to true -> the whole line is removed. */
+  var NEXT_USMNT = {
+    opponent : 'USA vs Türkiye',
+    kickoff  : '2026-06-25T22:00:00-04:00', // null when unknown -> shows TBD
+    dateLabel: 'Jun 25 · 10:00 PM ET',
+    eliminated: false                        // true -> hide the line entirely
+  };
   (function(){
-    var el = document.getElementById('wc-next');
-    if (!el) return;
-    var target = new Date('2026-06-19T15:00:00-04:00').getTime();
+    var line = document.getElementById('wc-next-line');
+    var el   = document.getElementById('wc-next');
+    if (!line || !el) return;
+
+    if (NEXT_USMNT.eliminated) { line.remove(); return; }
+
+    // No confirmed date yet -> TBD, no live countdown.
+    if (!NEXT_USMNT.kickoff) {
+      line.innerHTML = 'Next USMNT match · ' + NEXT_USMNT.opponent + ' · TBD';
+      return;
+    }
+
+    line.innerHTML = 'Next USMNT match in <b id="wc-next">—</b> · ' +
+                     NEXT_USMNT.opponent + ' · ' + NEXT_USMNT.dateLabel;
+    el = document.getElementById('wc-next');
+    var target = new Date(NEXT_USMNT.kickoff).getTime();
     function tick(){
       var d = target - Date.now();
       if (d < 0) { el.textContent = 'now'; return; }
