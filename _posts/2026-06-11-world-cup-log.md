@@ -197,7 +197,8 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
         <span class="wc-time">Jun 20 · 4:30 PM</span>
         <span class="chip tournament">Around the tournament</span>
       </div>
-      <p>Favorite five games I've watched so far, in no particular order:</p>
+      <h3>Favorite games so far</h3>
+      <p>In no particular order:</p>
       <ol>
         <li><a href="https://youtu.be/r8SvHZxALQs" target="_blank" rel="noopener">Netherlands vs. Japan</a></li>
         <li><a href="https://youtu.be/memCfdob60w" target="_blank" rel="noopener">Iran vs. New Zealand</a></li>
@@ -250,7 +251,6 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
         <span class="wc-time">Jun 16 · 9:05 AM</span>
         <span class="chip offpitch">Off the pitch</span>
       </div>
-      <h3>I don't really enjoy this studio crew</h3>
       <p>This crew of Rebecca Lowe, Zlatan, Thierry Henry, and Alexi Lalas just isn't clicking super well in my opinion. Rebecca is always great, but Zlatan, for as much as I love his personality, is just not good at this (at least not yet). Thierry looks disengaged and is a lot better when he has better analysts around him, like he <a href="https://youtu.be/OT-pl47XZLE" target="_blank" rel="noopener">does for Champions League coverage</a>.</p>
       <p>And Alexi Lalas... my god... has been poisoning my ears for years. The WOAT.</p>
     </article>
