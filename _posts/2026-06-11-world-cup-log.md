@@ -191,6 +191,23 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- Around the tournament: my five favorite games so far -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-06-20T16:30">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 20 · 4:30 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <p>Favorite five games I've watched so far, in no particular order:</p>
+      <ol>
+        <li><a href="https://youtu.be/r8SvHZxALQs" target="_blank" rel="noopener">Netherlands vs. Japan</a></li>
+        <li><a href="https://youtu.be/memCfdob60w" target="_blank" rel="noopener">Iran vs. New Zealand</a></li>
+        <li><a href="https://youtu.be/ynqGWHJPkuQ" target="_blank" rel="noopener">England vs. Croatia</a></li>
+        <li><a href="https://youtu.be/BXD1_mhODBU" target="_blank" rel="noopener">USA vs. Paraguay</a></li>
+        <li><a href="https://youtu.be/n3JDGlOwMJ4" target="_blank" rel="noopener">France vs. Senegal</a></li>
+      </ol>
+      <p>OK, I'm a bit biased — I'm a USMNT fan, so USA smashing Paraguay was always making the list, and I saw France vs. Senegal in person. But both were still great games!!</p>
+    </article>
+
     <!-- Off the pitch: The Athletic's World Cup coverage -->
     <article class="wc-entry" data-tags="offpitch" data-time="2026-06-20T14:00">
       <div class="wc-entry-meta">
