@@ -191,6 +191,16 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- Off the pitch: The Athletic's World Cup coverage -->
+    <article class="wc-entry" data-tags="offpitch" data-time="2026-06-20T14:00">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 20 · 2:00 PM</span>
+        <span class="chip offpitch">Off the pitch</span>
+      </div>
+      <p>The Athletic has had incredible coverage leading up to and during the World Cup. Between YouTube, Podcasts, the App, and more, it has been my favorite place for everything World Cup. I would really recommend subscribing for anyone that wants to lean more into the tournament.</p>
+      <p>It was a nice touch that for a few weeks ahead of the World Cup, every time you opened the app there was a countdown to the beginning of the WC. Sometimes it felt like the US and NYC weren't hyping up the World Cup enough — that was a fun little way to be reminded every single day of the massive event coming up.</p>
+    </article>
+
     <!-- Around the tournament: Australia beat Türkiye, raising the stakes for Friday -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-06-14T09:00">
       <div class="wc-entry-meta">
