@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "World Cup Preview 2026"
+title: "2026 World Cup Preview"
 date: 2026-06-10 12:00:00 -0500
 categories: sports
 tags: [sports, soccer]

@@ -42,6 +42,7 @@ permalink: /blog/
                     
                     <h2 class="blog-card-title">
                         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        {% if post.live %}<span class="card-live"><span class="card-live-dot"></span>Live</span>{% endif %}
                     </h2>
                     
                     <div class="blog-card-meta">
@@ -184,6 +185,40 @@ permalink: /blog/
 
 .blog-card-title a:hover {
     color: #2563eb;
+}
+
+/* "Live" pill for continuously-updated posts (set live: true in the post front matter).
+   Sits inline next to the title, so it's vertically centered with no bottom gap. */
+.card-live {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: 0.5rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #c8261a;
+    background: rgba(255, 67, 50, 0.1);
+    border: 1px solid rgba(255, 67, 50, 0.35);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.card-live-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #ff4332;
+    animation: cardLivePulse 1.4s ease-in-out infinite;
+}
+@keyframes cardLivePulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.25; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .card-live-dot { animation: none; }
 }
 
 .blog-card-meta {

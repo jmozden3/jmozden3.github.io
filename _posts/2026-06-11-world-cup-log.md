@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "World Cup 2026 Live Updates"
+title: "2026 World Cup Live Updates"
 date: 2026-06-11 09:00:00 -0500
 categories: sports
 tags: [sports, soccer]
 permalink: /worldcup/
+live: true   # shows a pulsing "● Live" pill on the Blog page; remove/false when the tournament ends
 excerpt: "Following the 2026 World Cup as it happens"
 image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 ---
@@ -225,7 +226,6 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
         <span class="wc-time">Jun 14 · 9:00 AM</span>
         <span class="chip usmnt">USMNT</span>
       </div>
-      <h3>Australia win sets up a fun one with the USMNT</h3>
       <div class="match">
         <span class="score">AUS 2–0 TÜR</span>
         <span class="tag">Group D</span>
@@ -234,14 +234,72 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
       <p><a class="wc-cal" href="{{ '/assets/usmnt-australia.ics' | relative_url }}">🗓 Add USA v Australia to your calendar</a></p>
     </article>
 
+    <!-- USMNT: Group D won outright after Paraguay beat Türkiye -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-06-20T01:30">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 20 · 1:30 AM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>Group D winners! USA!</h3>
+      <p>With Paraguay beating Türkiye last night / early this morning, the USA has officially won Group D! We last won our World Cup group in 2010, advancing on 5 points through three games. We already have 6 points in two games.</p>
+      <p>Already winning the group puts us in an interesting, advantageous position. Effectively, <strong>it means the next game means nothing to us.</strong> Win, lose, or draw, we still advance FIRST out of the group. Türkiye, our last group stage opponent, on the other hand, also has nothing to lose — but that's because they've already been eliminated from the tournament.</p>
+      <p>So what is the USMNT to do? Well, for starters, you continue to rest Christian Pulisic, who was out last game with an injury. You also DON'T play Tyler Adams, Flo Balogun, Antonee Robinson, and Chris Richards. That is because they each have a yellow card. The way the rules work for this WC tournament is that if you pick up two yellow cards, even if they are in separate games, you cannot play the next game; however, the yellow cards are "erased" after the group stages. So if one of those players played the third group stage game and got a yellow card, they would not be able to play the round of 32. By not playing next game, all of that resets.</p>
+      <p>As for the rest of the team… this is like in football when it's week 18 and you've already locked in your playoff spot. Do you start your starters so they don't get rusty, or rest them? In my opinion, you rest them, and I would start ENTIRELY backups for this game against Türkiye. It's debatable of course, but I think the risk of getting a starter injured outweighs the benefit of playing them so they don't "get rusty." Besides, it's likely you wouldn't play them the entire 90 minutes anyway.</p>
+      <p>Regardless, enjoy a fun and interesting match against Türkiye for our final group stage match. Remember, the outcome doesn't matter to us — we already won our group. So in that case, maybe our manager Pochettino gets a little weird with the formation and tactics. We'll find out soon.</p>
+      <p>All in all, the best outcome through two games we could've asked for.</p>
+    </article>
+
+    <!-- USMNT long-form: USA 2–0 Australia, second straight win -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-06-19T17:45">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 19 · 5:45 PM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>USA beats Australia 2–0 — LET'S GOOOO</h3>
+      <div class="match">
+        <span class="score">USA 2–0 AUS</span>
+        <span class="tag">Group D · matchday 2</span>
+      </div>
+      <p>The US beat Australia in front of a raucous crowd at Lumen Stadium (aka Seattle Stadium) today, giving the USMNT 6 points and their second win in two games. The last time the USMNT won two group stage games was in 1930.</p>
+      <p>A few thoughts about the game itself — while this game wasn't as entertaining as US vs. Paraguay, in my mind, it was still as dominant. We scored 2 goals in the first half, and while there were a few nervy moments in the second half, we looked to be mostly in control the entire game. Australia plays in a 5–4–1, meaning they have a LOT of defenders and are comfortable not having possession. They will sit back, defend, and then look for an opportunity to counterattack. When a team like us goes up two goals in the first half, it kind of messes up Australia's game plan.</p>
+      <p>In the second half, we were more than fine soaking up some pressure and playing the game out. From a tactical perspective, we did just about everything you could've wanted the team to do — we were organized, compact, and prevented Australia from ever really being dangerous. All in all, it was a dominant effort.</p>
+      <p>I've gotten this far without even mentioning the fact we won comfortably without our best player, Christian Pulisic. We will absolutely need him for the later games against better teams, but the fact we could easily dispatch of an inferior opponent without him goes to show the growth of this team over the past few years. I would've been extremely nervous without him in the past against ANY team — this time around, I actually felt ok going into it. That goes to show the level of chemistry and talent we're playing with this time around.</p>
+      <p>This is the best two-game stretch we've played in recent history (if not ever) and it couldn't come at a better time. We're winning in multiple ways — we ran up the score on a Paraguay team that played more open, and scored a few early and locked down on defense against another really defensive team.</p>
+      <p>If you weren't excited before, you should be now. Legends like Landon Donovan and Clint Dempsey are openly talking about how incredible this team looks, which is how you know something special is brewing. Start believing USA… it could be a great ride.</p>
+      <div class="wc-shots">
+        <figure class="wc-shot">
+          <img src="{{ '/assets/images/USMNT-AUS-Legends.jpeg' | relative_url }}" alt="Me and Christina watching the USMNT at Legends in Manhattan" loading="lazy">
+          <figcaption>Me and Christina watched the game at Legends in Manhattan, which was a proper soccer bar</figcaption>
+        </figure>
+        <figure class="wc-shot">
+          <img src="{{ '/assets/images/USMNT-AUS-biking-home.jpeg' | relative_url }}" alt="Me biking home after the USMNT win over Australia" loading="lazy">
+          <figcaption>Me biking home after the game, full of life and bliss</figcaption>
+        </figure>
+      </div>
+    </article>
+
+    <!-- Around the tournament: England look the part, vindicating the preview pick -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-06-17T19:00">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 17 · 7:00 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <p>Is there a lot of tournament to go? Yes. Do I feel good about my prediction that England would win it all since they are transitioning their team to run through their best player Harry Kane, who did absolutely everything in the win against Croatia? Yes, I do.</p>
+      <p><a href="/sports/2026/06/10/wc-preview.html">My preview prediction before the world cup</a>:</p>
+      <div class="prediction">
+        <span class="pl">// My pick to win it all</span>
+        <p class="pbig">It's coming home: <em>England.</em></p>
+        <p>The smart money would be on France or Spain, but something tells me it's finally coming home for England. Their best player, Harry Kane, is in the form of his life, and they have the talent and coach to make it happen.</p>
+      </div>
+    </article>
+
     <!-- Around the tournament: the superstars all delivered on the same matchday -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-06-17T10:10">
       <div class="wc-entry-meta">
         <span class="wc-time">Jun 17 · 10:10 AM</span>
         <span class="chip tournament">Around the tournament</span>
       </div>
-      <h3>The stars all came out to play</h3>
-      <p>Yesterday's matchday had all the brightest stars on center stage, and they all delivered. Mbappé scored <a href="https://www.youtube.com/watch?v=2AQGEqU9biI" target="_blank" rel="noopener">two</a> — in the process becoming France's all-time leading World Cup goalscorer — Haaland scored <a href="https://www.youtube.com/watch?v=pk_d-aFnZ0c" target="_blank" rel="noopener">two</a>, and then, as if he needed to remind everyone, Messi scored <a href="https://www.youtube.com/watch?v=7M3IPdkAfM4" target="_blank" rel="noopener">THREE</a>!</p>
+      <p>Yesterday's matchday had all the brightest stars on center stage, and they all delivered. Mbappé scored <a href="https://www.youtube.com/watch?v=2AQGEqU9biI" target="_blank" rel="noopener">two</a> — in the process becoming France's all-time leading World Cup goalscorer — Haaland scored <a href="https://www.youtube.com/watch?v=pk_d-aFnZ0c" target="_blank" rel="noopener">two</a>, and then, as if he needed to remind everyone who the hell he is, Messi scored <a href="https://www.youtube.com/watch?v=7M3IPdkAfM4" target="_blank" rel="noopener">THREE</a>!</p>
       <p>With that hat trick, Messi has officially tied Miroslav Klose for the most World Cup goals ever, at 16. And at this rate, who would dare doubt that he breaks the record before this campaign is done?</p>
     </article>
 
