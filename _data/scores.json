@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T10:00:03.938Z",
+  "updated": "2026-06-21T19:54:07.131Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -425,12 +425,11 @@
       "date": "2026-06-21",
       "home": "Spain",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "ESP",
       "awayCode": "KSA",
-      "kickoff": "12:00 UTC-4",
       "group": "H"
     },
     {
