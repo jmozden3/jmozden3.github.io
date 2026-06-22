@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T19:54:07.131Z",
+  "updated": "2026-06-22T05:11:06.397Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -401,24 +401,22 @@
       "date": "2026-06-21",
       "home": "Belgium",
       "away": "Iran",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "BEL",
       "awayCode": "IRN",
-      "kickoff": "12:00 UTC-7",
       "group": "G"
     },
     {
       "date": "2026-06-21",
       "home": "New Zealand",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
       "homeCode": "NZL",
       "awayCode": "EGY",
-      "kickoff": "18:00 UTC-7",
       "group": "G"
     },
     {
@@ -436,12 +434,11 @@
       "date": "2026-06-21",
       "home": "Uruguay",
       "away": "Cape Verde",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "URU",
       "awayCode": "CPV",
-      "kickoff": "18:00 UTC-4",
       "group": "H"
     },
     {
