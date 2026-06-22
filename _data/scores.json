@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T05:11:06.397Z",
+  "updated": "2026-06-22T12:18:48.341Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -836,11 +836,12 @@
     },
     {
       "date": "2026-06-29",
-      "home": "1E",
+      "home": "Germany",
       "away": "3A/B/C/D/F",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "GER",
       "kickoff": "16:30 UTC-4"
     },
     {
@@ -881,11 +882,12 @@
     },
     {
       "date": "2026-06-30",
-      "home": "1A",
+      "home": "Mexico",
       "away": "3C/E/F/H/I",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "MEX",
       "kickoff": "19:00 UTC-6"
     },
     {
@@ -899,11 +901,12 @@
     },
     {
       "date": "2026-07-01",
-      "home": "1D",
+      "home": "USA",
       "away": "3B/E/F/I/J",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "USA",
       "kickoff": "17:00 UTC-7"
     },
     {
