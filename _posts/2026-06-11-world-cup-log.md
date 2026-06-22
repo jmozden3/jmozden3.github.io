@@ -123,6 +123,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 
   /* ---- long-form extras: lists, photo grid, responsive video embeds ---- */
   .wc-entry ul{margin:0 0 1rem;padding-left:1.2em;list-style:disc}
+  .wc-entry ol{margin:0 0 1rem;padding-left:2.2em;list-style:decimal}
   .wc-entry li{font-size:1.02rem;margin:0 0 .45rem}
   .wc-shots{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:18px 0 0}
   @media(max-width:640px){.wc-shots{grid-template-columns:1fr}}
@@ -191,6 +192,29 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
      Need a layout? Copy one from the TEMPLATE GALLERY in the comment block below. -->
 <div class="wcl-stream">
   <div class="wrap">
+
+    <!-- USMNT: the knockout path is setting up nicely -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-06-22T10:19">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 22 · 10:19 AM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <p>With Belgium drawing Iran and Egypt beating New Zealand yesterday, the USMNT's path to the quarterfinals (final 8) is actually setting up quite nicely. As I said in my previous post, you never really know your path until it's finalized, but the most likely outcome at this point is playing Bosnia and Herzegovina in the round of 32 and then Egypt in the round of 16. While both teams could pose problems, that is a tastier setup than many other teams would have to the final 8.</p>
+      <figure class="wc-shot wc-shot-wide">
+        <img src="{{ '/assets/images/usmnt-knockout-path-possibility.png' | relative_url }}" alt="A possible USMNT knockout path to the quarterfinals" loading="lazy">
+      </figure>
+    </article>
+
+    <!-- USMNT: the ceiling for this team -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-06-22T11:00">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 22 · 11:00 AM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>USMNT ceiling</h3>
+      <p>When someone asks me the ceiling for this USMNT, it basically to me comes down to the first time we play France, Spain, Argentina, or England. I think those teams are a class above the rest in this tournament and would be very tough for the USMNT to beat. Any other team, however, including the likes of Brazil, Germany, the Netherlands, etc., I think we could absolutely beat. Won't always mean we're favored, but would definitely have a fighting chance.</p>
+      <p>So my guess is that we go as we can until going up against one of those big boys. While you never know how the bracket shakes out, that seems like the elite eight — we might run into someone like Spain. But the beauty is you might never know… one of them could be upset by someone else, or even us on the right day. The point is that we've looked more dangerous than ever before, and I'm sure many teams would NOT want to be going up against us right now, especially as co-hosts with home field advantage.</p>
+    </article>
 
     <!-- Around the tournament: my five favorite games so far -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-06-20T16:30">
