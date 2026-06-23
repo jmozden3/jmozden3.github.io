@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T09:56:57.303Z",
+  "updated": "2026-06-23T20:15:15.950Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -489,12 +489,11 @@
       "date": "2026-06-23",
       "home": "Portugal",
       "away": "Uzbekistan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "POR",
       "awayCode": "UZB",
-      "kickoff": "12:00 UTC-5",
       "group": "K"
     },
     {
