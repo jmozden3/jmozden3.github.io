@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T20:58:20.068Z",
+  "updated": "2026-06-23T04:08:21.821Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -445,24 +445,22 @@
       "date": "2026-06-22",
       "home": "France",
       "away": "Iraq",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "FRA",
       "awayCode": "IRQ",
-      "kickoff": "17:00 UTC-4",
       "group": "I"
     },
     {
       "date": "2026-06-22",
       "home": "Norway",
       "away": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "NOR",
       "awayCode": "SEN",
-      "kickoff": "20:00 UTC-4",
       "group": "I"
     },
     {
