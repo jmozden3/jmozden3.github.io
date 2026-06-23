@@ -140,6 +140,23 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
   .wc-videos .wc-video{margin:0}
   .wc-videos figure{margin:0}
   .wc-videos figcaption{font-family:'Space Mono',monospace;font-size:.7rem;color:var(--ink-soft);margin-top:6px;line-height:1.45}
+
+  /* ---- simple bar chart: all-time World Cup top scorers ---- */
+  .wc-chart{margin:18px 0 0;border:1px solid var(--line);border-radius:var(--radius);padding:18px 18px 14px;background:#fff}
+  .wc-chart-title{font-family:'Space Mono',monospace;font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);margin:0 0 14px}
+  .wc-scorers{display:flex;flex-direction:column;gap:11px}
+  .wc-scorer{display:grid;grid-template-columns:150px 1fr;gap:12px;align-items:center}
+  .wc-scorer .who{font-family:'Space Mono',monospace;font-size:.72rem;line-height:1.3;color:var(--ink-soft)}
+  .wc-scorer .who b{font-family:'Inter',sans-serif;font-weight:700;font-size:.92rem;color:var(--ink);display:block}
+  .wc-bar{position:relative;background:#eef2ee;border-radius:8px;height:32px;overflow:hidden}
+  .wc-bar .fill{position:absolute;inset:0 auto 0 0;min-width:34px;background:linear-gradient(90deg,var(--turf),#1f7a4f);border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding:0 10px;color:#fff;font-family:'Archivo',sans-serif;font-weight:900;font-size:.95rem}
+  .wc-scorer.active .fill{background:linear-gradient(90deg,var(--accent),var(--accent-ink))}
+  .wc-chart-legend{font-family:'Space Mono',monospace;font-size:.68rem;color:var(--ink-soft);margin:14px 0 0;display:flex;gap:16px;flex-wrap:wrap}
+  .wc-chart-legend .key{display:inline-flex;align-items:center;gap:6px}
+  .wc-chart-legend .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .wc-chart-legend .sw.active{background:var(--accent)}
+  .wc-chart-legend .sw.retired{background:var(--turf)}
+  @media(max-width:560px){.wc-scorer{grid-template-columns:118px 1fr;gap:8px}.wc-scorer .who b{font-size:.82rem}}
 </style>
 
 <div class="wcl">
@@ -192,6 +209,53 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
      Need a layout? Copy one from the TEMPLATE GALLERY in the comment block below. -->
 <div class="wcl-stream">
   <div class="wrap">
+
+    <!-- Around the tournament: Messi sets the all-time WC scoring record -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-06-23T07:28">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 23 · 7:28 AM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>History made! And history incoming?</h3>
+      <p>With two goals against Austria, Lionel Messi is now the official all-time leading World Cup goal scorer with 18, passing the previous record holder Miroslav Klose's 16. Crazily enough, Mbappé, with two goals himself against Iraq, now brings his total to 16, right behind Messi. Mbappé is 12 years younger than Messi, and surely at this pace will surpass Messi in due time — perhaps even this World Cup.</p>
+      <div class="wc-chart">
+        <p class="wc-chart-title">All-time World Cup top scorers · goals (matches played)</p>
+        <div class="wc-scorers">
+          <div class="wc-scorer active">
+            <div class="who"><b>🇦🇷 Messi</b><span>28 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:100%">18</span></div>
+          </div>
+          <div class="wc-scorer active">
+            <div class="who"><b>🇫🇷 Mbappé</b><span>16 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:88.9%">16</span></div>
+          </div>
+          <div class="wc-scorer">
+            <div class="who"><b>🇩🇪 Klose</b><span>24 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:88.9%">16</span></div>
+          </div>
+          <div class="wc-scorer">
+            <div class="who"><b>🇧🇷 Ronaldo</b><span>19 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:83.3%">15</span></div>
+          </div>
+          <div class="wc-scorer">
+            <div class="who"><b>🇩🇪 Gerd Müller</b><span>13 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:77.8%">14</span></div>
+          </div>
+          <div class="wc-scorer">
+            <div class="who"><b>🇫🇷 Fontaine</b><span>6 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:72.2%">13</span></div>
+          </div>
+          <div class="wc-scorer">
+            <div class="who"><b>🇧🇷 Pelé</b><span>14 matches</span></div>
+            <div class="wc-bar"><span class="fill" style="width:66.7%">12</span></div>
+          </div>
+        </div>
+        <p class="wc-chart-legend">
+          <span class="key"><span class="sw active"></span> Still active</span>
+          <span class="key"><span class="sw retired"></span> Retired</span>
+        </p>
+      </div>
+    </article>
 
     <!-- USMNT: the knockout path is setting up nicely -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-06-22T10:19">
