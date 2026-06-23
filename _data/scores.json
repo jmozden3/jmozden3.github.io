@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T04:08:21.821Z",
+  "updated": "2026-06-23T09:56:57.303Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -478,12 +478,11 @@
       "date": "2026-06-22",
       "home": "Jordan",
       "away": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "JOR",
       "awayCode": "ALG",
-      "kickoff": "20:00 UTC-7",
       "group": "J"
     },
     {
