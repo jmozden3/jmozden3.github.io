@@ -210,6 +210,23 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- USMNT: dead-rubber loss to Turkey closes out group play -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-06-26T09:30">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 26 · 9:30 AM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>USMNT lose to Turkey, but mission accomplished</h3>
+      <p>Last night wrapped up the last game of the USMNT group play, as the USMNT lost to Turkey 2&ndash;3 in a packed SoFi Stadium. As I mentioned in a previous post, before this game both teams were already locked into their final group standings &mdash; the US as first in the group and Turkey as last (and eliminated from the tournament) &mdash; so this game was a "dead rubber" match&hellip;meaningless from an outcome perspective.</p>
+      <p>Pochettino did what I hoped he would do, which was a near-full turnover of the roster. Only one usual starter, Weston McKennie, started in this game, while the rest of the starters were usually bench players. While it sucks the USMNT did lose &mdash; on the last kick of the game, for that matter &mdash; my verdict remains that this was still "mission accomplished": we got to rest everyone that needed a rest, Pulisic got some playing time after coming back from injury, we got to see some of our squad depth in action, and most importantly, no one got seriously injured. The USMNT put themselves in the wonderful position of being able to play a meaningless match, and although it wasn't the outcome we would've hoped for, the meaningless result was, in and of itself, the win.</p>
+      <p>On the game itself &mdash; to speak the obvious, there is a clear gap in quality between our starting 11 and our backup 11, especially in the defensive half. This game further emphasized the importance of Tyler Adams, our defensive midfielder who not only is incredibly skilled, but also does a great job at keeping the defense organized, something I thought was missing from our team last night. Additionally, this game was a good reminder of the drop off specifically amongst our center backs, who were not the best last night. Injuries in this tournament to Tim Ream or especially Chris Richards, our starting center backs, would be very bad.</p>
+      <p>Otherwise, I thought Gio Reyna played pretty well and I could see him getting more playing time in the tournament. Sebastian Berhalter was also pretty good with a goal and an assist. Tim Weah, who I'm a fan of, played very poorly, but I'm sure he will have better days.</p>
+      <p>All in all, an exciting, if not super high quality game that will be shortly forgotten. Come Wednesday when the USMNT play in their first knockout game against Bosnia and Herzegovina, this loss will be but a distant memory. I think homefield advantage is particularly helpful here, because even though we might've lost a little momentum (not even entirely sure that is the case) with a meaningless L, that stadium will be going absolutely bonkers come game time. Surely all the momentum will be back with us leading up to kickoff.</p>
+      <div class="wc-video">
+        <iframe src="https://www.youtube.com/embed/7JJLMyKBG90" title="USA 2–3 Turkey — highlights" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </article>
+
     <!-- Around the tournament: Messi sets the all-time WC scoring record -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-06-23T07:28">
       <div class="wc-entry-meta">
