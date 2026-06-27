@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T14:38:57.230Z",
+  "updated": "2026-06-27T04:04:35.752Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -689,48 +689,44 @@
       "date": "2026-06-26",
       "home": "Cape Verde",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "CPV",
       "awayCode": "KSA",
-      "kickoff": "19:00 UTC-5",
       "group": "H"
     },
     {
       "date": "2026-06-26",
       "home": "Uruguay",
       "away": "Spain",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "URU",
       "awayCode": "ESP",
-      "kickoff": "18:00 UTC-6",
       "group": "H"
     },
     {
       "date": "2026-06-26",
       "home": "Norway",
       "away": "France",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 4,
+      "status": "FT",
       "homeCode": "NOR",
       "awayCode": "FRA",
-      "kickoff": "15:00 UTC-4",
       "group": "I"
     },
     {
       "date": "2026-06-26",
       "home": "Senegal",
       "away": "Iraq",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "SEN",
       "awayCode": "IRQ",
-      "kickoff": "15:00 UTC-4",
       "group": "I"
     },
     {
