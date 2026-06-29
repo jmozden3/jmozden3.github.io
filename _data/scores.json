@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T04:46:25.783Z",
+  "updated": "2026-06-29T16:00:08.482Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -979,11 +979,12 @@
     },
     {
       "date": "2026-07-04",
-      "home": "W73",
+      "home": "Canada",
       "away": "W75",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "CAN",
       "kickoff": "12:00 UTC-5"
     },
     {
