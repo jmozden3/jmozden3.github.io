@@ -132,6 +132,8 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
   /* single landscape photo (e.g. a TV set shot) — full width, wide aspect */
   .wc-shot-wide{margin:18px 0 0}
   .wc-shot-wide img{aspect-ratio:16/9}
+  /* full-bleed diagram (e.g. the knockout bracket): show the WHOLE image, no crop */
+  .wc-bracket img{width:100%;height:auto;aspect-ratio:auto;object-fit:contain}
   .wc-video{position:relative;padding-bottom:56.25%;height:0;margin:18px 0 0;border-radius:12px;overflow:hidden;border:1px solid var(--line)}
   .wc-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
   /* two embeds side by side — stacks on narrow screens so they don't get cramped */
@@ -234,7 +236,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
       </div>
       <h3>The knockout stage has begun</h3>
       <p>The group stage is over and we have officially entered the knockout rounds. Every game from here on out is win or go home. You can see an image of how the playoff bracket looks below.</p>
-      <figure class="wc-shot wc-shot-wide">
+      <figure class="wc-shot wc-bracket">
         <img src="{{ '/assets/images/knockout-bracket.jpeg' | relative_url }}" alt="2026 World Cup knockout-stage bracket" loading="lazy">
       </figure>
       <p>A few round of 32 games that look mighty tasty:</p>
