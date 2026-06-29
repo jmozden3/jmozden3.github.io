@@ -210,6 +210,48 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- Around the tournament: contenders check-in entering the knockouts -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-06-29T08:16">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 29 · 8:16 AM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>Checking in on the contenders</h3>
+      <p>As we enter the knockout rounds, checking in on some of the tournament contenders.</p>
+      <ul>
+        <li><b>Above the rest: France (1A) and Argentina (1B).</b> The finalists of 2022 still look like the best teams in 2026. I would not be surprised to see a rematch again this year. Given what I've seen so far, I would favor France in another epic matchup.</li>
+        <li><b>Slightly underwhelming but still dangerous: England and Spain.</b> I don't think we've seen either fully kick into form yet, but there have been spurts of greatness from both sides in group play. On a good day, both of these teams can beat anyone. Let's just see if they can get into that highest gear. I have more faith in Spain to do that than England, but seeing as England are my pick to win it all, I would hope they prove me wrong.</li>
+        <li><b>Expect the unexpected: Germany, Portugal, and Brazil.</b> Brazil has won two of their games 3&ndash;0. Germany put 7 goals past Curaçao and beat a good Ivory Coast team at the death. Portugal put up 5 against Uzbekistan. Even so, I would say all these teams remain unconvincing against better competition, and I wouldn't be surprised if any of these teams made it to the semi-finals OR lost in the round of 16 or earlier.</li>
+        <li><b>Co-hosts having fun: USMNT, Mexico, Canada.</b> Canada won their first knockout and is in the round of 32. Mexico have a tough schedule but are at home until the quarterfinals. And the USMNT are in great form looking to make the quarters as well. Hopefully all these teams can go far.</li>
+      </ul>
+    </article>
+
+    <!-- Around the tournament: knockout stage begins, bracket + round-of-32 watch -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-06-28T12:00">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jun 28 · 12:00 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>The knockout stage has begun</h3>
+      <p>The group stage is over and we have officially entered the knockout rounds. Every game from here on out is win or go home. You can see an image of how the playoff bracket looks below.</p>
+      <figure class="wc-shot wc-shot-wide">
+        <img src="{{ '/assets/images/knockout-bracket.jpeg' | relative_url }}" alt="2026 World Cup knockout-stage bracket" loading="lazy">
+      </figure>
+      <p>A few round of 32 games that look mighty tasty:</p>
+      <ul>
+        <li><b>Brazil vs. Japan (6/29):</b> Traditional powerhouse Brazil looking to return to former glory coming up against one of the most fun teams of the tournament, Japan. Don't be surprised to see a Japan upset here.</li>
+        <li><b>Morocco vs. Netherlands (6/30):</b> A clash of two of the tournament's strongest sides, sitting right next to each other in the FIFA world rankings at 6th and 7th. On paper, one of the most evenly matched ties of the round.</li>
+        <li><b>Mexico vs. Ecuador (6/30):</b> Mexico's reward for winning all 3 group games? A matchup against Ecuador who, while they did underperform during group play, are a very strong defensive side.</li>
+        <li><b>Portugal vs. Croatia (7/2):</b> Two 40+ year old legends of the game come up against each other as Ronaldo and Portugal take on Modrić and Croatia.</li>
+      </ul>
+      <p>A few other brief observations&hellip;</p>
+      <ul>
+        <li>World Cup holders Argentina have a favorable path to the semi-final, with Colombia likely their stiffest test in the quarter-finals. I do not see many chances for an upset here and would be shocked if we didn't see them in the final four.</li>
+        <li>Looking ahead, if both England and Mexico win their first knockout games, a R16 matchup between the two of them in Mexico City would be must-see TV.</li>
+        <li>The USA have a moderately favorable draw. They should be favored in their first knockout game (Bosnia Herz.), about a coin flip in their next (Belgium or Senegal), and underdogs in the quarters (probably Spain). Going past the R16 would be a huge deal for us.</li>
+      </ul>
+    </article>
+
     <!-- USMNT: dead-rubber loss to Turkey closes out group play -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-06-26T09:30">
       <div class="wc-entry-meta">
