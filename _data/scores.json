@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T16:00:08.482Z",
+  "updated": "2026-06-29T20:12:39.189Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -829,12 +829,11 @@
       "date": "2026-06-29",
       "home": "Brazil",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "BRA",
-      "awayCode": "JPN",
-      "kickoff": "12:00 UTC-5"
+      "awayCode": "JPN"
     },
     {
       "date": "2026-06-30",
