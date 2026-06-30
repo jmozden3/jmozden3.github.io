@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T04:12:50.549Z",
+  "updated": "2026-06-30T20:07:12.422Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -848,12 +848,11 @@
       "date": "2026-06-30",
       "home": "Ivory Coast",
       "away": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "CIV",
-      "awayCode": "NOR",
-      "kickoff": "12:00 UTC-5"
+      "awayCode": "NOR"
     },
     {
       "date": "2026-06-30",
