@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T04:41:24.643Z",
+  "updated": "2026-07-01T10:02:49.699Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -857,12 +857,11 @@
       "date": "2026-06-30",
       "home": "Mexico",
       "away": "Ecuador",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "MEX",
-      "awayCode": "ECU",
-      "kickoff": "19:00 UTC-6"
+      "awayCode": "ECU"
     },
     {
       "date": "2026-07-01",
@@ -965,30 +964,35 @@
     },
     {
       "date": "2026-07-04",
-      "home": "W74",
-      "away": "W77",
+      "home": "Paraguay",
+      "away": "France",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "PAR",
+      "awayCode": "FRA",
       "kickoff": "17:00 UTC-4"
     },
     {
       "date": "2026-07-04",
       "home": "Canada",
-      "away": "W75",
+      "away": "Morocco",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
       "homeCode": "CAN",
+      "awayCode": "MAR",
       "kickoff": "12:00 UTC-5"
     },
     {
       "date": "2026-07-05",
-      "home": "W76",
-      "away": "W78",
+      "home": "Brazil",
+      "away": "Norway",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "BRA",
+      "awayCode": "NOR",
       "kickoff": "16:00 UTC-4"
     },
     {
