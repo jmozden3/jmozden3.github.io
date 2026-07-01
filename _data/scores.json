@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:02:49.699Z",
+  "updated": "2026-07-01T14:50:53.567Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -997,11 +997,12 @@
     },
     {
       "date": "2026-07-05",
-      "home": "W79",
+      "home": "Mexico",
       "away": "W80",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "MEX",
       "kickoff": "18:00 UTC-6"
     },
     {
