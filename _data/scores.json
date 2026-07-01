@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T14:50:53.567Z",
+  "updated": "2026-07-01T20:04:27.693Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -867,12 +867,11 @@
       "date": "2026-07-01",
       "home": "England",
       "away": "DR Congo",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "ENG",
-      "awayCode": "COD",
-      "kickoff": "12:00 UTC-4"
+      "awayCode": "COD"
     },
     {
       "date": "2026-07-01",
