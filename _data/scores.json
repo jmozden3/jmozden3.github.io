@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T20:07:12.422Z",
+  "updated": "2026-07-01T04:41:24.643Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -837,12 +837,11 @@
       "date": "2026-06-30",
       "home": "France",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "FRA",
-      "awayCode": "SWE",
-      "kickoff": "17:00 UTC-4"
+      "awayCode": "SWE"
     },
     {
       "date": "2026-06-30",
