@@ -212,6 +212,20 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- USMNT: favorite moment so far — Poch singing Country Roads -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-07-02T10:30">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 2 · 10:30 AM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>My favorite moment so far</h3>
+      <p>No matter what happens, I'll never forget the all-time good vibes of Pochettino singing Country Roads after this World Cup. Truly an all-time moment for me, and hopefully an all-time moment for the USA.</p>
+      <figure class="wc-shot" style="max-width:440px;margin-inline:auto">
+        <img src="{{ '/assets/images/poch-singing.jpeg' | relative_url }}" alt="Mauricio Pochettino singing Country Roads with the USMNT" loading="lazy">
+        <figcaption><a href="https://x.com/FOXSports/status/2072508357852983446" target="_blank" rel="noopener">Watch Poch sing Country Roads →</a></figcaption>
+      </figure>
+    </article>
+
     <!-- Around the tournament: all three co-hosts reach the R16 -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-07-02T09:30">
       <div class="wc-entry-meta">
