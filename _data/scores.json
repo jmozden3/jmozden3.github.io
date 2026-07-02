@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T20:04:27.693Z",
+  "updated": "2026-07-02T04:08:22.211Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -877,23 +877,21 @@
       "date": "2026-07-01",
       "home": "USA",
       "away": "Bosnia & Herzegovina",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "USA",
-      "awayCode": "BIH",
-      "kickoff": "17:00 UTC-7"
+      "awayCode": "BIH"
     },
     {
       "date": "2026-07-01",
       "home": "Belgium",
       "away": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "BEL",
-      "awayCode": "SEN",
-      "kickoff": "13:00 UTC-7"
+      "awayCode": "SEN"
     },
     {
       "date": "2026-07-02",
