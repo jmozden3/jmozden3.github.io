@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//jmozden3.github.io//World Cup Log//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:usmnt-belgium-2026-07-06@jmozden3.github.io
+DTSTAMP:20260702T000000Z
+DTSTART:20260707T000000Z
+DTEND:20260707T020000Z
+SUMMARY:USMNT vs Belgium - World Cup 2026 Round of 16
+DESCRIPTION:USA vs Belgium, World Cup 2026 Round of 16 - arguably the biggest game in USMNT history. Kickoff 8:00 PM ET.
+LOCATION:2026 FIFA World Cup
+URL:https://jmozden3.github.io/worldcup/
+END:VEVENT
+END:VCALENDAR
