@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T03:54:46.743Z",
+  "updated": "2026-07-03T09:29:51.255Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -917,12 +917,11 @@
       "date": "2026-07-02",
       "home": "Switzerland",
       "away": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "SUI",
-      "awayCode": "ALG",
-      "kickoff": "20:00 UTC-7"
+      "awayCode": "ALG"
     },
     {
       "date": "2026-07-03",
