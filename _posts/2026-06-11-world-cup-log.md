@@ -169,7 +169,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
     <span class="eyebrow">// Running log</span>
     <h1>The World Cup, as it happens</h1>
     <p class="sub">Some takes as the tournament goes along. Will provide extra emphasis on USMNT analysis. Feel free to use the filter buttons below!</p>
-    <p class="wcl-next" id="wc-next-line">Next USMNT match in <b id="wc-next">—</b> · USA vs Türkiye, Jun 25 · 10:00 PM ET</p>
+    <p class="wcl-next" id="wc-next-line">Next USMNT match in <b id="wc-next">—</b> · USA vs Belgium, Jul 6 · 8:00 PM ET</p>
     <p class="wcl-pinned"><a href="/sports/2026/06/10/wc-preview.html"><span class="pin">⚽</span> Start here: my full World Cup preview →</a></p>
   </div>
 </header>
@@ -211,6 +211,29 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
      Need a layout? Copy one from the TEMPLATE GALLERY in the comment block below. -->
 <div class="wcl-stream">
   <div class="wrap">
+
+    <!-- Around the tournament: round of 32 wraps up, R16 preview -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-07-04T14:49">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 4 · 2:49 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>To the round of 16 we go</h3>
+      <p>First and foremost, happy July 4th!! Belgium are lucky they aren't playing us today, because the USA is undefeated on Independence Day. <a href="https://www.youtube.com/watch?v=Bemyn03pxdM" target="_blank" rel="noopener">Neva lost!</a></p>
+      <p>The first stage of the knockout rounds are over and we're into the round of 16! Overall, I thought this was an absolutely thrilling slate of soccer games. You had giants like Germany go down in penalties, DR Congo taking England to the brink, Cabo Verde pulling off a near miracle against Argentina, and all three co-hosts going through, amongst other great results.</p>
+      <p>10 of the 16 games were decided by 1 goal or less. 5 games went to added extra time. 3 went to penalties. Overall, I was pleasantly surprised at the level of competition and drama in this round. This is the first time we've had a round of 32 in a World Cup (typically went straight to the R16), which could've led to some cakewalk / uncompetitive games. While there were a few of those (see: Spain–Austria, France–Sweden), we otherwise had awesome matches all over.</p>
+      <p>Looking forward, we are down from the 48 teams to begin the tournament to the final 16. A few matches to look forward to:</p>
+      <ul>
+        <li><b>USA vs. Belgium (7/6 @ 8pm EST):</b> Of COURSE the number one game to look forward to is the USMNT! Even without our best player this tournament, Flo Balogun, we have a decent shot of knocking off the Belgians. Getting to the quarterfinals would be a HUGE result for us.</li>
+        <li><b>Mexico vs. England (7/5 @ 8pm EST):</b> Absolutely cracking game incoming. Typically, England would be a strong favorite, but this game is being played at Estadio Azteca in Mexico City, the cathedral stadium of world soccer. This game will be loud, physical, and played at a high altitude that favors the Mexicans.</li>
+        <li><b>Spain vs. Portugal (7/6 @ 3pm EST):</b> The Iberian Derby! While Spain is favored, this is still the FIFA ranking 3 vs. 7 teams facing off. Lots of great history between these two nations, and two of the three co-hosts of the 2030 World Cup (along with Morocco).</li>
+        <li><b>Brazil vs. Norway (7/5 @ 4pm EST):</b> I had Brazil on upset alert last round against Japan and I have them on upset alert vs. Norway, too. Norway's attack has just looked deadly and they seem to be clicking more than Brazil. Vini Jr. vs. Haaland should be epic.</li>
+      </ul>
+      <p>See below for all matchups in the round of 16.</p>
+      <figure class="wc-shot wc-bracket">
+        <img src="{{ '/assets/images/round-of-16.jpeg' | relative_url }}" alt="All 2026 World Cup round of 16 matchups" loading="lazy">
+      </figure>
+    </article>
 
     <!-- USMNT: favorite moment so far — Poch singing Country Roads -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-07-02T10:30">
@@ -906,9 +929,9 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
                             (e.g. a knockout opponent/time we don't know yet)
        • USA eliminated  : set eliminated to true -> the whole line is removed. */
   var NEXT_USMNT = {
-    opponent : 'USA vs Türkiye',
-    kickoff  : '2026-06-25T22:00:00-04:00', // null when unknown -> shows TBD
-    dateLabel: 'Jun 25 · 10:00 PM ET',
+    opponent : 'USA vs Belgium',
+    kickoff  : '2026-07-06T20:00:00-04:00', // null when unknown -> shows TBD
+    dateLabel: 'Jul 6 · 8:00 PM ET',
     eliminated: false                        // true -> hide the line entirely
   };
   (function(){
