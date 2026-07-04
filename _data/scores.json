@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T19:39:37.582Z",
+  "updated": "2026-07-04T03:48:08.409Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -927,34 +927,31 @@
       "date": "2026-07-03",
       "home": "Argentina",
       "away": "Cape Verde",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "ARG",
-      "awayCode": "CPV",
-      "kickoff": "18:00 UTC-4"
+      "awayCode": "CPV"
     },
     {
       "date": "2026-07-03",
       "home": "Colombia",
       "away": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "COL",
-      "awayCode": "GHA",
-      "kickoff": "20:30 UTC-5"
+      "awayCode": "GHA"
     },
     {
       "date": "2026-07-03",
       "home": "Australia",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "AUS",
-      "awayCode": "EGY",
-      "kickoff": "13:00 UTC-5"
+      "awayCode": "EGY"
     },
     {
       "date": "2026-07-04",
