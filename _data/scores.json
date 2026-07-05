@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T19:24:09.940Z",
+  "updated": "2026-07-05T04:06:29.736Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -957,12 +957,11 @@
       "date": "2026-07-04",
       "home": "Paraguay",
       "away": "France",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
       "homeCode": "PAR",
-      "awayCode": "FRA",
-      "kickoff": "17:00 UTC-4"
+      "awayCode": "FRA"
     },
     {
       "date": "2026-07-04",
