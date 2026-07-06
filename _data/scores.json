@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T04:13:13.737Z",
+  "updated": "2026-07-06T15:48:59.171Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1059,11 +1059,13 @@
     },
     {
       "date": "2026-07-11",
-      "home": "W91",
-      "away": "W92",
+      "home": "Norway",
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "NOR",
+      "awayCode": "ENG",
       "kickoff": "17:00 UTC-4"
     },
     {
