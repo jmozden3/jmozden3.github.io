@@ -1,0 +1,72 @@
+name: Email subscribers about new posts
+
+# When a push to main ADDS a file under _posts/, email Buttondown subscribers
+# about it (edits/renames to existing posts never trigger — --diff-filter=A).
+# The script waits for the post to appear in the live feed.xml (i.e. the Pages
+# deploy finished) and takes the canonical post URL from the feed entry.
+#
+# Manual runs (workflow_dispatch) default to creating a Buttondown DRAFT so you
+# can safely test the pipeline against any existing post; tick "send" to
+# actually email everyone.
+#
+# Needs the BUTTONDOWN_API_KEY repo secret (Settings → Secrets → Actions).
+
+on:
+  push:
+    branches: [main]
+    paths: ['_posts/**']
+  workflow_dispatch:
+    inputs:
+      post_path:
+        description: 'Post file to notify about (e.g. _posts/2025-09-30-vibecoding.md)'
+        required: true
+      send:
+        description: 'Actually send to all subscribers (unchecked = create draft only)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notify-subscribers
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Find newly added posts
+        id: new_posts
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            POSTS="${{ github.event.inputs.post_path }}"
+          else
+            BEFORE="${{ github.event.before }}"
+            if [ "$BEFORE" = "0000000000000000000000000000000000000000" ] || ! git cat-file -e "$BEFORE" 2>/dev/null; then
+              # Fallback for force-pushes/unknown base: only the head commit
+              BEFORE="${{ github.sha }}~1"
+            fi
+            POSTS=$(git diff --name-only --diff-filter=A "$BEFORE" "${{ github.sha }}" -- '_posts/' | tr '\n' ' ')
+          fi
+          echo "posts=$POSTS" >> "$GITHUB_OUTPUT"
+          if [ -z "${POSTS// /}" ]; then
+            echo "No newly added posts — nothing to send."
+          else
+            echo "New posts: $POSTS"
+          fi
+
+      - name: Notify subscribers
+        if: steps.new_posts.outputs.posts != '' && steps.new_posts.outputs.posts != ' '
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          SEND_MODE: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.send != 'true') && 'draft' || 'send' }}
+        run: node .github/scripts/notify-subscribers.mjs ${{ steps.new_posts.outputs.posts }}

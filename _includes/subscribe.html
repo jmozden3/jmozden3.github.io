@@ -1,0 +1,102 @@
+<div class="subscribe-card">
+    <div class="subscribe-text">
+        <h3>Subscribe</h3>
+        <p>Get new posts in your inbox. No spam, unsubscribe anytime.</p>
+    </div>
+    <form
+        action="https://buttondown.com/api/emails/embed-subscribe/joemozden"
+        method="post"
+        target="popupwindow"
+        onsubmit="window.open('https://buttondown.com/joemozden', 'popupwindow')"
+        class="subscribe-form"
+    >
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" required aria-label="Email address">
+        <input type="submit" value="Subscribe" class="subscribe-btn">
+    </form>
+</div>
+
+<style>
+.subscribe-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem 2rem;
+    margin: 2rem auto;
+    max-width: 720px;
+}
+
+.subscribe-text h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 0.25rem 0;
+}
+
+.subscribe-text p {
+    font-size: 0.925rem;
+    color: #6b7280;
+    margin: 0;
+}
+
+.subscribe-form {
+    display: flex;
+    gap: 0.5rem;
+    flex: 1;
+    min-width: 260px;
+    max-width: 380px;
+}
+
+.subscribe-form input[type="email"] {
+    flex: 1;
+    min-width: 0;
+    padding: 0.6rem 0.9rem;
+    font-family: inherit;
+    font-size: 0.925rem;
+    color: #111827;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color 0.2s ease;
+}
+
+.subscribe-form input[type="email"]:focus {
+    border-color: #2563eb;
+}
+
+.subscribe-btn {
+    padding: 0.6rem 1.25rem;
+    font-family: inherit;
+    font-size: 0.925rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: #2563eb;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    .subscribe-card {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    .subscribe-form {
+        max-width: none;
+    }
+}
+</style>

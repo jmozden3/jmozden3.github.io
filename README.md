@@ -1,6 +1,6 @@
 # My website
 
-My personal site — [jmozden3.github.io](https://jmozden3.github.io). It's a Jekyll site hosted on GitHub Pages. Mostly notes-to-self here so I don't have to relearn this every time.
+My personal site — [joemozden.com](https://joemozden.com). It's a Jekyll site hosted on GitHub Pages. Mostly notes-to-self here so I don't have to relearn this every time.
 
 ## How it deploys
 
@@ -25,3 +25,9 @@ This matches the live site exactly because the `Gemfile` is pinned to the `githu
 
 - **Raw HTML in posts:** keep block elements (`<div>`, `<article>`, comments) flush at column 0, with blank lines only *between* them — never a blank line followed by indented HTML, or Kramdown turns it into a literal code block. The World Cup posts are the example to copy.
 - **World Cup scores** (`/worldcup/`) pull from `_data/scores.json`, which a GitHub Action (`.github/workflows/scores.yml`) refreshes on a schedule. I don't edit that file by hand.
+
+## Subscriptions & analytics
+
+- **Email subscribers (Buttondown, username `joemozden`):** the subscribe form lives in `_includes/subscribe.html` (shown on `/` and `/blog/`) and posts straight to Buttondown, which stores subscribers and handles unsubscribes. When a push to `main` **adds** a new file to `_posts/`, the `notify-subscribers.yml` Action waits for the post to appear in the live `feed.xml`, then emails all subscribers via the Buttondown API (`BUTTONDOWN_API_KEY` repo secret). Editing an existing post never sends an email — only genuinely new files do. To test or re-send manually: Actions → "Email subscribers about new posts" → Run workflow (creates a draft unless "send" is checked). Subscriber list / sent emails: buttondown.com dashboard.
+- **Analytics (GoatCounter):** one script tag in `_layouts/default.html` covers every page. Dashboard: [joemozden.goatcounter.com](https://joemozden.goatcounter.com). It ignores localhost, so local previews don't pollute stats.
+- The `url:` in `_config.yml` must stay `https://joemozden.com` (matching `CNAME`) — the feed, SEO tags, and subscriber emails all build absolute links from it.
