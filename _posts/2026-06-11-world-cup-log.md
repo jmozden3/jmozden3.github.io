@@ -212,6 +212,16 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- USMNT: eliminated by Belgium in the round of 16 -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-07-06T22:01">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 6 · 10:01 PM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>Pain</h3>
+      <p>"It's the hope that kills you"</p>
+    </article>
+
     <!-- USMNT: Balogun red card suspension lifted ahead of Belgium -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-07-06T00:10">
       <div class="wc-entry-meta">
@@ -946,7 +956,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
     opponent : 'USA vs Belgium',
     kickoff  : '2026-07-06T20:00:00-04:00', // null when unknown -> shows TBD
     dateLabel: 'Jul 6 · 8:00 PM ET',
-    eliminated: false                        // true -> hide the line entirely
+    eliminated: true                         // true -> hide the line entirely
   };
   (function(){
     var line = document.getElementById('wc-next-line');
