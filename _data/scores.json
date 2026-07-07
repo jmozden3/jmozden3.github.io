@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T14:53:04.643Z",
+  "updated": "2026-07-07T20:06:20.881Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1017,12 +1017,11 @@
       "date": "2026-07-07",
       "home": "Argentina",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
       "homeCode": "ARG",
-      "awayCode": "EGY",
-      "kickoff": "12:00 UTC-4"
+      "awayCode": "EGY"
     },
     {
       "date": "2026-07-07",
