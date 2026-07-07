@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T04:03:27.312Z",
+  "updated": "2026-07-07T14:53:04.643Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1048,11 +1048,13 @@
     },
     {
       "date": "2026-07-10",
-      "home": "W93",
-      "away": "W94",
+      "home": "Spain",
+      "away": "Belgium",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "ESP",
+      "awayCode": "BEL",
       "kickoff": "12:00 UTC-7"
     },
     {
