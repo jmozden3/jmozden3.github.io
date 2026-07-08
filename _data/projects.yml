@@ -6,7 +6,7 @@
   github: "https://github.com/jmozden3/azure-databricks-disaster-recovery"
   description: "A collection of templates and guidance for implementing disaster recovery solutions for Azure Databricks environments. Based on Microsoft's official documentation and industry best practices."
   tech: ["Client Facing", "Terraform", "Databricks", "Azure", "Python"]
-  featured: false
+  featured: true
 
 - name: "My Website"
   type: "template"
@@ -21,7 +21,7 @@
   link: "https://www.cbs-rugby.com/"
   description: "A template for any sports team or club looking to create a website. Built for my rugby club, Columbia RFC, and currently live at https://www.cbs-rugby.com/"
   tech: ["Google Stitch", "Claude Code", "Netlify"]
-  featured: true
+  featured: false
 
 - name: "Spotify Playlist Extractor"
   type: "tool"
