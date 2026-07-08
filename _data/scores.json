@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T20:06:20.881Z",
+  "updated": "2026-07-08T03:29:31.869Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1027,12 +1027,11 @@
       "date": "2026-07-07",
       "home": "Switzerland",
       "away": "Colombia",
-      "homeScore": null,
-      "awayScore": null,
-      "status": "scheduled",
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
       "homeCode": "SUI",
-      "awayCode": "COL",
-      "kickoff": "13:00 UTC-7"
+      "awayCode": "COL"
     },
     {
       "date": "2026-07-09",
