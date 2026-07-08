@@ -18,6 +18,7 @@
 - name: "Team Rugby Website"
   type: "template"
   github: "https://github.com/CBS-RFC/website"
+  link: "https://www.cbs-rugby.com/"
   description: "A template for any sports team or club looking to create a website. Built for my rugby club, Columbia RFC, and currently live at https://www.cbs-rugby.com/"
   tech: ["Google Stitch", "Claude Code", "Netlify"]
   featured: true
@@ -32,8 +33,17 @@
 - name: "New York Times Daily Newsletter"
   type: "tool"
   github: "https://github.com/jmozden3/nyt-daily-newsletter"
+  read: "https://joemozden.com/tech/2025/12/09/nyt-newsletter-journal.html"
   description: "A script that automatically sends me a daily email with a news story I am interested in from The New York Times"
   tech: ["Python Script","APIs", "Email Automation"]
+  featured: false
+
+- name: "Alpha AI"
+  type: "tool"
+  github: "https://github.com/jmozden3/alpha-ai"
+  read: "https://alphaainewsletter.substack.com/"
+  description: "A weekly newsletter with curated AI tips and tools people can actually use. A Python pipeline gathers and synthesizes sources into each issue, published on Substack."
+  tech: ["Python", "AI", "Substack"]
   featured: false
 
 - name: "Azure AI Agents Lab"
@@ -54,6 +64,7 @@
   type: "ai"
   link: "https://lanternfall.joemozden.com/"
   github: "https://github.com/jmozden3/project-tenochtitlan"
+  read: "https://joemozden.com/tech/2026/07/05/lanternfall.html"
   description: "An autonomous AI experiment. Every night, Claude Opus builds new features of a town it created - with no human oversight."
   tech: ["Digital Ocean", "Vercel", "Claude Code"]
   featured: true
