@@ -224,7 +224,7 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
       <p>I saw this team in person. More than anything else I've listed, this team has stamina and depth. They have so many world class players coming off the bench, and in the hot summer heat of the U.S., that matters. I find it difficult to think of any team that can stop them on their way to a third World Cup win.</p>
       <figure class="wc-shot" style="max-width:560px;margin-inline:auto">
         <img src="{{ '/assets/images/crossbar-soccerbar.jpeg' | relative_url }}" alt="Watching France vs. Morocco from a soccer bar" style="aspect-ratio:4/3" loading="lazy">
-        <figcaption>Catching France vs. Morocco from the bar.</figcaption>
+        <figcaption>Catching France vs. Morocco from <a href="https://maps.app.goo.gl/gsnn1swPfKWkgAr99" target="_blank" rel="noopener">Crossbar NYC</a>.</figcaption>
       </figure>
     </article>
 
