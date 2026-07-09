@@ -212,6 +212,38 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- Around the tournament: France look unstoppable vs. Morocco -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-07-09T17:29">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 9 · 5:29 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <p>Writing in from a cool little soccer bar while watching France vs. Morocco.</p>
+      <p><b>France is probably the best World Cup team I've ever seen, and I have a hard time finding anyone that could stop them.</b></p>
+      <p>Truly, they have so much starting talent&hellip;but not only that, I think they have purpose in their play. They go forward with purpose, cross with purpose, pass around with purpose. Even when they played Paraguay in a 1&ndash;0 win, they showed purpose and intent in their ability to not get sucked into the dark arts and shithousery Paraguay were trying to deploy.</p>
+      <p>I saw this team in person. More than anything else I've listed, this team has stamina and depth. They have so many world class players coming off the bench, and in the hot summer heat of the U.S., that matters. I find it difficult to think of any team that can stop them on their way to a third World Cup win.</p>
+    </article>
+
+    <!-- USMNT: reflective thoughts after the Belgium loss -->
+    <article class="wc-entry" data-tags="usmnt" data-time="2026-07-09T16:59">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 9 · 4:59 PM</span>
+        <span class="chip usmnt">USMNT</span>
+      </div>
+      <h3>USMNT loss to Belgium thoughts</h3>
+      <p>I needed to take a day off after such a heartbreaking loss. I still don't think I have all my thoughts fully fleshed out after this one, and I don't think I'll have them for awhile. So this is still some of the semi-raw emotion coming out of that game.</p>
+      <p>At the end of the day, I think that was one of the most disappointing losses I've ever witnessed. It's probably second to the infamous <a href="https://www.youtube.com/watch?v=_gjDuuV-JwE" target="_blank" rel="noopener">Trinidad and Tobago loss</a>. And I've watched a lot of USMNT losses for the 15+ years I've been following them.</p>
+      <p>They say one of the biggest contributors to frustration or stress is the misalignment of expectation and reality, and that pretty much sums up this game for people who knew what this team <em>could've</em> accomplished. This was the best team we've had in a long time. A great manager. Home court. It was all adding up to us beating a European team &mdash; a team that has knocked us out previously, no less &mdash; in the round of 16 and moving onto the quarterfinals and stacking up against a true contender. We could've surpassed expectations and proven to ball-knowers that we are here and we are here to stay.</p>
+      <p>Instead, it ends like it always does &mdash; a loss in the round of 16 to whatever team we come up against. Not only that, but we simply did not show up to play. There would've been honor in going down swinging. We didn't even do that. Flat out, we fucking sucked.</p>
+      <p>There's a LOT of reasons why we lost. Mistakes across the pitch. Little offense. An all time goalkeeper gaffe. If I had to sum it up, it would be this: Belgium played a little better than they have all tournament, and we played A LOT WORSE than we played this whole tournament.</p>
+      <p>It's hard to blame the tactics when I thought this was the worst player performance I've seen in some time. EVERY player played poorly, except <em>maybe</em> Balogun and <em>maybe</em> Tillman. Pulisic and Dest played HORRIBLY. Players were constantly just giving the ball away, running into defenders or just playing bad passes. We looked like a team that just lacked focus and lacked the mentality to meet the moment. There's no shame in losing&hellip;but there is shame in how we did it.</p>
+      <p>Much will be made about the Balogun suspension being overturned and the political intervention involved. For most of the tournament, the US was humming and was a home team that many people were getting behind. A lot of that changed when the suspension was overturned &mdash; which to many was seen as a form of US favoritism and arrogance &mdash; and the USMNT, regardless of the fact the players had nothing to do with this, yet again became the team people wanted to root against.</p>
+      <p>Frankly, I don't know if this had anything to do with how bad we looked, and I don't know if I care. Hindsight is 20/20. Did it make a difference in our attitude and mentality? Probably. Could I have seen a different outcome if we were riding the anger of a bad call in the first place and we rally behind an inspired performance, with the rest of the world rooting alongside us, instead of against us? I don't know, maybe. But what I do know is that none of this would matter if we just showed up when it mattered most. And the hard part is simple &mdash; we just didn't.</p>
+      <p>It'll be awhile before I get over this one. It is just such a colossal miss for this team and this sport in this country. However, as is my nature, I don't want to end on a bad note here. Two of my best friends, non-soccer fans (or at least casual fans&hellip;one of them roots for Everton so while his head might be in the wrong place, his heart isn't) got into the World Cup this year, and mentioned they could see themselves continuing to be interested over time. At least one of them said he is watching more soccer movies. I'll take what I can get.</p>
+      <p>Whether that is true for the country or not&hellip;only time will tell. I surely hope so. The vibes leading up to that last game were so good, and I can only hope they help carry the interest of this sport and this team past the tournament.</p>
+      <p>We missed a great opportunity to make a statement in the tournament. I hope we didn't miss the opportunity to grow soccer as well. My gut says we didn't&hellip;it'll just take some time to recognize that.</p>
+    </article>
+
     <!-- USMNT: eliminated by Belgium in the round of 16 -->
     <article class="wc-entry" data-tags="usmnt" data-time="2026-07-06T22:01">
       <div class="wc-entry-meta">
