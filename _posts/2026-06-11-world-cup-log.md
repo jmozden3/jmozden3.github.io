@@ -222,6 +222,10 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
       <p><b>France is probably the best World Cup team I've ever seen, and I have a hard time finding anyone that could stop them.</b></p>
       <p>Truly, they have so much starting talent&hellip;but not only that, I think they have purpose in their play. They go forward with purpose, cross with purpose, pass around with purpose. Even when they played Paraguay in a 1&ndash;0 win, they showed purpose and intent in their ability to not get sucked into the dark arts and shithousery Paraguay were trying to deploy.</p>
       <p>I saw this team in person. More than anything else I've listed, this team has stamina and depth. They have so many world class players coming off the bench, and in the hot summer heat of the U.S., that matters. I find it difficult to think of any team that can stop them on their way to a third World Cup win.</p>
+      <figure class="wc-shot" style="max-width:560px;margin-inline:auto">
+        <img src="{{ '/assets/images/crossbar-soccerbar.jpeg' | relative_url }}" alt="Watching France vs. Morocco from a soccer bar" style="aspect-ratio:4/3" loading="lazy">
+        <figcaption>Catching France vs. Morocco from the bar.</figcaption>
+      </figure>
     </article>
 
     <!-- USMNT: reflective thoughts after the Belgium loss -->
