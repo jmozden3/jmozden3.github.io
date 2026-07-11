@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T03:24:15.945Z",
+  "updated": "2026-07-11T19:14:24.868Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1077,11 +1077,13 @@
     },
     {
       "date": "2026-07-14",
-      "home": "W97",
-      "away": "W98",
+      "home": "France",
+      "away": "Spain",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "FRA",
+      "awayCode": "ESP",
       "kickoff": "14:00 UTC-5"
     },
     {
