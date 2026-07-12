@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T08:27:05.470Z",
+  "updated": "2026-07-12T19:15:00.503Z",
   "matches": [
     {
       "date": "2026-06-11",
@@ -1086,11 +1086,13 @@
     },
     {
       "date": "2026-07-15",
-      "home": "W99",
-      "away": "W100",
+      "home": "England",
+      "away": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "status": "scheduled",
+      "homeCode": "ENG",
+      "awayCode": "ARG",
       "kickoff": "15:00 UTC-4"
     },
     {
