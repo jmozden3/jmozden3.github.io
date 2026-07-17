@@ -212,6 +212,22 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 <div class="wcl-stream">
   <div class="wrap">
 
+    <!-- Around the tournament: down to the final four -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-07-14T10:45">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 14 · 10:45 AM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>The final four</h3>
+      <p>We are down to our final four teams and our final three games (we don't count the third place game).</p>
+      <p>Ultimately, I think the four teams left are the four best teams of this tournament. FIFA actually set it up this year where the best four teams in the FIFA standings were put in separate quadrants of the bracket (assuming they each won their group) so this exact scenario might show up. Think of it like in March Madness when the four number one seeds can't meet each other until the semis. FIFA hasn't done that before this year.</p>
+      <p>I still think France are the team to beat, but if anyone can do it, I would choose Spain over Argentina or England. My guess is the World Cup winner is the winner of that game.</p>
+      <p>Although it would've been fun to see a new team make it to this stage (Norway, for example), as a casual, this is probably the best soccer you could ask for. Let's see how it plays out.</p>
+      <figure class="wc-shot wc-bracket">
+        <img src="{{ '/assets/images/semi-final-bracket.png' | relative_url }}" alt="2026 World Cup semi-final bracket" loading="lazy">
+      </figure>
+    </article>
+
     <!-- Around the tournament: France look unstoppable vs. Morocco -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-07-09T17:29">
       <div class="wc-entry-meta">
