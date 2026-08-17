@@ -5,7 +5,6 @@ date: 2026-06-11 09:00:00 -0500
 categories: sports
 tags: [sports, soccer]
 permalink: /worldcup/
-live: true   # shows a pulsing "● Live" pill on the Blog page; remove/false when the tournament ends
 excerpt: "Following the 2026 World Cup as it happens"
 image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
 ---
@@ -211,6 +210,17 @@ image: https://jmozden3.github.io/assets/images/usmnt-goal-hug.png
      Need a layout? Copy one from the TEMPLATE GALLERY in the comment block below. -->
 <div class="wcl-stream">
   <div class="wrap">
+
+    <!-- Around the tournament: Spain win the World Cup -->
+    <article class="wc-entry" data-tags="tournament" data-time="2026-07-19T18:00">
+      <div class="wc-entry-meta">
+        <span class="wc-time">Jul 19 · 6:00 PM</span>
+        <span class="chip tournament">Around the tournament</span>
+      </div>
+      <h3>Spain wins! Football wins!</h3>
+      <p>In the end, the best team won. For the neutral, that probably was not the most exciting game after a thrilling tournament; however, it was more than a fair outcome. I found myself, as well as most of the people I asked, supporting Spain after how Argentina handled themself during the tournament and especially during that game, where at points it didn't even seem like they wanted to score&hellip;just go after the Spanish players.</p>
+      <p>That's a wrap for the live blog. In the end, what an absolute head banger of a tournament. For all the worry leading up to it, and while it still had some issues, it truly was a great ride. Congrats to Spain for their second star. See you all in four years!</p>
+    </article>
 
     <!-- Around the tournament: down to the final four -->
     <article class="wc-entry" data-tags="tournament" data-time="2026-07-14T10:45">
