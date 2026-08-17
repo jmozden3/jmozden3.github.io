@@ -10,8 +10,10 @@ name: Update World Cup scores
 # when ESPN is unreachable. Actions minutes are free on public repos regardless.
 
 on:
-  schedule:
-    - cron: '0 */6 * * *' # every 6 hours (UTC) — live data comes from the client
+  # Scheduled updates disabled after the 2026 tournament ended (final: Jul 19).
+  # Scores are final and no longer change. Re-enable the cron for the next event.
+  # schedule:
+  #   - cron: '0 */6 * * *' # every 6 hours (UTC) — live data comes from the client
   workflow_dispatch: {}
 
 permissions:
